@@ -6,9 +6,10 @@
       .titulo-principal__numero
         span 2
       h1 Metodologías de evaluación de usabilidad y accesibilidad
-
-    .col-lg-12.mb-3
-      img(src="@/assets/curso/Images/tema2/img_1.png", alt= "")
+    
+    .row.align-items-center
+      .col-lg-12.mb-5
+        img(src="@/assets/curso/Images/tema2/img_1.png", alt= "")
 
     p.mb-3 Una vez revisado y comprendido de manera precisa y sucinta los conceptos y técnicas que engloban en gran medida la disciplina de la usabilidad, es posible ahora entrar a uno de los más interesantes mecanismos y apartados de este componente, que es la evaluación.
     
@@ -16,7 +17,7 @@
    
     #t_2_1.titulo-segundo
       h2 2.1 Introducción y conceptos básicos
-    p.mb-3 A Son patrones de X niveles y se organizan en capas horizontales. Muchas de las aplicaciones informáticas han tomado este patrón como arquitectura, funciona conectando los componentes, pero estos no dependen uno del otro. Cada una de estas capas cumple con una función específica en el desarrollo de la aplicación. Su objetivo primordial es la separación de la lógica de negocios de la lógica de diseño, es decir, separar la capa de datos de la capa de presentación al usuario. 
+    p.mb-5 A Son patrones de X niveles y se organizan en capas horizontales. Muchas de las aplicaciones informáticas han tomado este patrón como arquitectura, funciona conectando los componentes, pero estos no dependen uno del otro. Cada una de estas capas cumple con una función específica en el desarrollo de la aplicación. Su objetivo primordial es la separación de la lógica de negocios de la lógica de diseño, es decir, separar la capa de datos de la capa de presentación al usuario. 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.reverse
       .bloque-texto-g__texto.p-4
