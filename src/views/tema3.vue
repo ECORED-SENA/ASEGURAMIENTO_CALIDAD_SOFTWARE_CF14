@@ -74,12 +74,13 @@
                 img(src='@/assets/curso/Images/tema3/img_6.svg' alt='')
 
     h3.mb-5 Contexto, objetivos y métodos
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.reverse
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5.verticalLine
+      .bloque-texto-g__img.m-left(
+      :style="{'background-image': `url(${require('@/assets/curso/Images/tema3/img_8.png')})`}"
+      )
       .bloque-texto-g__texto.p-4
         p.mb-0 Según Interaction <i>Design Foundation IDF</i>, los diseñadores centrados en el usuario necesitan de una comprensión profunda de sus usuarios objetivo, sus requerimientos y su entorno (IDF, 2020). Tener empatía y ser sensible a los puntos débiles de su usuario es clave.
-      .bloque-texto-g__img(
-    :style="{'background-image': `url(${require('@/assets/curso/Images/tema3/img_8.png')})`}"
-    )
+     
 
     p.mb-3 IDF señala que el proceso tiene como objetivo capturar y abordar toda la experiencia del usuario de una interfaz. Por lo tanto, se debe involucrar a profesionales de múltiples disciplinas (por ejemplo, etnógrafos, psicólogos, ingenieros de software y hardware), así como a expertos en el dominio, partes interesadas y los propios usuarios.
 
@@ -100,7 +101,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.color-custom-6.p-4.mb-3
+        .cajon.color-acento-contenido.p-4.mb-3
           p.mb-3 Según la ISO 9241- 210: 2010 (ISO, 2019), la definición exacta de experiencia de usuario es: “Las percepciones y respuestas de una persona resultantes del uso y / o uso anticipado de un producto, sistema o servicio”. 
 
         p.mb-3  Así que el interés por la experiencia de usuario ha crecido de manera constante en los últimos años. Aunque UX se refiere a cómo un usuario interpreta la interacción que tiene con cualquier producto o servicio, ocupa un lugar especial en el diseño de interfaces web y móviles.

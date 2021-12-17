@@ -19,12 +19,13 @@
       h2 2.1 Introducción y conceptos básicos
     p.mb-5 A Son patrones de X niveles y se organizan en capas horizontales. Muchas de las aplicaciones informáticas han tomado este patrón como arquitectura, funciona conectando los componentes, pero estos no dependen uno del otro. Cada una de estas capas cumple con una función específica en el desarrollo de la aplicación. Su objetivo primordial es la separación de la lógica de negocios de la lógica de diseño, es decir, separar la capa de datos de la capa de presentación al usuario. 
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.reverse
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Una de las científicas informáticas más renombradas en el mundo de la interacción humano-computador, Jenny Preece, indica en su libro Interaction Design: Beyond Human‑Computer lo siguiente: “…hace poco me encontré con dos diseñadores de sitios web que orgullosos de su nuevo sitio me miraron atónitos cuando les pregunté si lo habían probado con usuarios. «No», dijeron, «pero nosotros sabemos que está bien». Indagué un poco más y descubrí que en su empresa eran considerados como expertos pues conocían perfectamente todos los trucos del diseño web…”
-      .bloque-texto-g__img(
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.verticalLine
+      .bloque-texto-g__img.m-left(
     :style="{'background-image': `url(${require('@/assets/curso/Images/tema2/img_2.png')})`}"
     )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Una de las científicas informáticas más renombradas en el mundo de la interacción humano-computador, Jenny Preece, indica en su libro Interaction Design: Beyond Human‑Computer lo siguiente: “…hace poco me encontré con dos diseñadores de sitios web que orgullosos de su nuevo sitio me miraron atónitos cuando les pregunté si lo habían probado con usuarios. «No», dijeron, «pero nosotros sabemos que está bien». Indagué un poco más y descubrí que en su empresa eran considerados como expertos pues conocían perfectamente todos los trucos del diseño web…”
+      
 
     p.mb-3 Lo anteriormente expuesto constituye una de las verdades que lamentablemente se da con demasiada frecuencia y, por infortunio, es lo habitual. Además, aunque el concepto de usabilidad pueda ser sencillo de comprender, conseguir que un producto sea usable y comprensible es difícil, ahora, aún más, que deje sensaciones positivas al usarlo (experiencia de usuario). En general, cuando se diseña y desarrolla una aplicación software, se está más preocupado por la funcionalidad que por la usabilidad del mismo, y eso que no se trata de la accesibilidad, que en últimas es poco tratada.
 
@@ -145,7 +146,7 @@
             
             .row.align-items-center.justify-content-center.mb-5
               .col-lg-11
-                .cajon.color-custom-6.p-4
+                .cajon.cajon.color-acento-contenido.p-4
                   p.mb-3 Para el caso especial de este componente formativo, se hará énfasis en la técnica de la evaluación heurística, debido a la complejidad de esta disciplina y también a la extensión del componente formativo. No obstante, se dejan en el material complementario enlaces a videos y artículos sobre las diferentes técnicas de evaluación, como soporte al proceso formativo.
                 
     

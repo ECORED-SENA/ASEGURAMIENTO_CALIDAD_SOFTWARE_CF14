@@ -364,12 +364,13 @@
     #t_1_3.titulo-segundo
       h2 1.3 La investigación de la audiencia
     
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.reverse
-      .bloque-texto-g__texto.p-4
-        p.mb-0 En esta sección, se presentarán de manera muy precisa conceptos y técnicas para la comprensión del usuario y, de esta forma, tener de manera más prolija la organización de la información. Así, se espera que todo lo conceptual visto en los apartados anteriores quede claro con esta parte práctica.
-      .bloque-texto-g__img(
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.verticalLine
+      .bloque-texto-g__img.m-left(
     :style="{'background-image': `url(${require('@/assets/curso/Images/tema1/img_20.png')})`}"
     )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 En esta sección, se presentarán de manera muy precisa conceptos y técnicas para la comprensión del usuario y, de esta forma, tener de manera más prolija la organización de la información. Así, se espera que todo lo conceptual visto en los apartados anteriores quede claro con esta parte práctica.
+      
 
     .row.align-items-center.justify-content-center.mb-3
         .col-lg-10
