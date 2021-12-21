@@ -15,7 +15,7 @@
       
     .row.tarjeta_Sp-1.p-5
       .col-lg-7   
-        p.mb-3 Para la elaboración de este componente, se abordaron varios autores conocidos en <b>pruebas de usabilidad,</b> de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del <b>aseguramiento de la calidad de software.</b>
+        p.mb-3 Para la elaboración de este componente, se abordaron varios autores conocidos en <b>pruebas de usabilidad,</b> de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del <b>aseguramiento de la calidad de <i>software</i>.</b>
       .col-lg-5
         img(src="@/assets/curso/Images/tema1/intro.svg", alt= "")
         
