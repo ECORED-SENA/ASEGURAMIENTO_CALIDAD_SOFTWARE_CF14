@@ -31,6 +31,7 @@
   background-color: #D0F6F9
   border-top-right-radius: 1rem
   border-top-left-radius: 1rem
+  margin-bottom: -24px
 .jumbotron-2
   background-color: #F3F9FF
 .jumbotron-3
@@ -46,7 +47,7 @@
 .jumbotron-7
   background-color: #4DD0E1
 .jumbotron-8
-  background-color: #76D0DC
+  background-color: #75CBF5
   height: 24rem
 .jumbotron-9
   background-color: #97E4EE
@@ -80,14 +81,18 @@
 	background-color: #D6ECFF
 	&::before
 	  background-color: #4DD0E1
+.color-custom-7
+	background-color:#F9EBCF
+	&::before
+	  background-color: #FFCA28
 .color-tab
     background-color: #FFFFFF
 .sp1
   background-color: #4DD0E1
 .sp2
-  background-color: #B3EBF2
+  background-color: #C1E9FC
 .sp3
-  background-color: #A1DDE5
+  background-color: #A0D9F5
 .sp4
   background-image: url('../assets/curso/Images/tema3/back_2.svg')
   background-size: 100%
@@ -210,6 +215,63 @@
   background-color:  #D6EFFF !important 
 .cajon.color-acento-contenido::before
   background-color:  #4DD0E1 !important
-  
 
+.img-infografica.color-secundario .img-infografica__item__dot::before, .img-infografica.color-secundario .img-infografica__item__dot::after, .img-infografica.color-secundario .img-infografica-b__item__dot::before, .img-infografica.color-secundario .img-infografica-b__item__dot::after, .img-infografica-b.color-secundario .img-infografica__item__dot::before, .img-infografica-b.color-secundario .img-infografica__item__dot::after, .img-infografica-b.color-secundario .img-infografica-b__item__dot::before, .img-infografica-b.color-secundario .img-infografica-b__item__dot::after 
+    background-color: #FFA726
 
+.acordion
+  .tarjeta--azul
+    background-color: #4dd0e1
+    &.acordion__activo
+      background-color: rgba(77,208,225,.15)
+
+$cacb: #F3F9FF
+$cap: #1565c0
+$caclarito: #D2EDEA
+
+//colores
+.cp
+  color: $color-primario !important
+.cs
+  color: $color-secundario !important
+.cac
+  color: $color-acento-contenido !important
+.cab
+  color: $color-acento-botones !important
+.fcp
+  background-color: $color-primario !important
+.fcs
+  background-color: $color-secundario !important
+.fcacb
+  background-color: $cacb !important
+.cap
+  color: $cap !important
+.fcp20
+  background-color: $caclarito !important
+.fcap
+  background-color: $cap !important
+.fblanco
+  background-color: white !important
+.slyder-a__bullets__item
+  &--active
+    background-color: $color-acento-contenido !important
+    border-color: $color-acento-contenido !important
+    opacity: 1
+.pasos-a.color-acento-contenido .pasos-a__numero::after 
+    border-left-color: #00357B
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea 
+    border-color: #00357B
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line 
+    border-top-color: #00357B
+.tarjeta-numerada.color-secundario .tarjeta-numerada__numero 
+    background-color: #C9EAF4
+    border: 20px
+    border: solid 2px #039BE5
+.tarjeta-numerada.color-acento-contenido .tarjeta-numerada__numero 
+    background-color: #FFF1C8;
+    border: 20px
+    border: solid 2px #FFCA28
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero 
+    background-color: #DEFBFF
+    border: 20px
+    border: solid 2px #4DD0E1

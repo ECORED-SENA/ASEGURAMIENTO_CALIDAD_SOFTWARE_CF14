@@ -10,7 +10,7 @@
   
     .row.justify-content-center.align-items-center.sp4.p-2
       .col-lg-8
-        p En esta unidad, se pretende generar claridad sobre conceptos que comúnmente se utilizan en equipos de desarrollo, como, por ejemplo, el término experiencia de usuario. Es por eso que la pretensión de esta sección es abordar de manera clave algunas particularidades de esta disciplina, a través de la metodología del Diseño Centrado en el Usuario, toda vez que sin la aplicación de la metodología no es muy posible llegar a generar experiencias positivas en el uso de un sistema software interactivo.
+        p En esta unidad, se pretende generar claridad sobre conceptos que comúnmente se utilizan en equipos de desarrollo, como, por ejemplo, el término experiencia de usuario. Es por eso que la pretensión de esta sección es abordar de manera clave algunas particularidades de esta disciplina, a través de la metodología del Diseño Centrado en el Usuario, toda vez que sin la aplicación de la metodología no es muy posible llegar a generar experiencias positivas en el uso de un sistema <i>software</i>, interactivo.
       .col-lg-4.mb-5.mb-lg-0
         img(src="@/assets/curso/Images/tema3/img_1.svg", alt="")
     
@@ -31,12 +31,12 @@
         .jumbotron-13.mb-3.p-4
           .row.justify-content-center.align-items-center.sp5.p-2
             .col-lg-7
-              p El DCU es un paradigma, de cierta forma, cambia la forma en que se piensa y se percibe sobre los seres humanos y las computadoras. Este tipo de proceso de diseño tiene como objetivo involucrar activamente a los usuarios en cada etapa del proceso de construcción de un sistema interactivo software, para el desarrollo de productos más efectivos, eficientes y seguros. Estas etapas incluyen:  
+              p El DCU es un paradigma, de cierta forma, cambia la forma en que se piensa y se percibe sobre los seres humanos y las computadoras. Este tipo de proceso de diseño tiene como objetivo involucrar activamente a los usuarios en cada etapa del proceso de construcción de un sistema interactivo <i>software</i>,, para el desarrollo de productos más efectivos, eficientes y seguros. Estas etapas incluyen:  
             .col-lg-5.mb-5.mb-lg-0
               img(src="@/assets/curso/Images/tema3/img_2.svg", alt="")
     
     .col-lg-10.mx-auto.mb-5
-      LineaTiempoD.color-primario
+      LineaTiempoD.color-secundario
         .p-4(titulo='Análisis de investigación' numero='1')
           .row.align-items-center
             .col-lg-8
@@ -49,13 +49,23 @@
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Concepto y estrategia
-              p La siguiente etapa incluye la conceptualización del proyecto, que consiste en organizar el mismo de manera esquemática. Un sitio web puede contener varias páginas web, es necesario definir la cantidad antes de iniciar su desarrollo. También, el sitio web puede necesitar ciertas funcionalidades, como base de datos, sistemas de seguridad, entre otros aspectos importantes. Para ello, se realizan mapas del sitio o sitemaps, diseño de arquitectura de la información y categorización de productos. Esta última implica identificar la línea de productos, como sucede con los <i>e-commerce,</i> donde se puede utilizar card sorting, que es una herramienta sencilla y práctica para establecer estas categorías.
+              p La siguiente etapa incluye la conceptualización del proyecto, que consiste en organizar el mismo de manera esquemática. Un sitio <i>web</i> puede contener varias páginas <i>web</i>, es necesario definir la cantidad antes de iniciar su desarrollo. También, el sitio <i>web</i> puede necesitar ciertas funcionalidades, como base de datos, sistemas de seguridad, entre otros aspectos importantes. Para ello, se realizan mapas del sitio o sitemaps, diseño de arquitectura de la información y categorización de productos. Esta última implica identificar la línea de productos, como sucede con los <i>e-commerce,</i> donde se puede utilizar card sorting, que es una herramienta sencilla y práctica para establecer estas categorías.
             .col-lg-4
               figure
                 img(src='@/assets/curso/Images/tema3/img_4.svg' alt='')
-         
-        .p-4(titulo='Desarrollo' numero='3')
+
+        .p-4(titulo='Diseño' numero='3')
           p El controlador no es más que el interlocutor entre la vista y el modelo, gestionando y adaptando la información entre ellas.
+          .row.align-items-center
+            .col-lg-8
+              h3.mb-3 Diseño
+              p Luego, en la etapa de prototipado, se desarrolla un diseño en baja y alta, de manera que se puedan apreciar las funcionalidades del sitio <i>web</i>. El prototipado lo que busca es tener una <i>web</i> funcional, pero que no está en línea aún. Es una plataforma de prueba, sin colores ni diseños o fotos (diseño en baja). Solo es un sitio <i>web</i> donde se pueden hacer pruebas de funcionalidad, como el uso de botones, uso de formularios o caja de búsqueda, por mencionar algunos elementos. Se hacen también pruebas piloto y se define el diseño gráfico (diseño en alta). 
+
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/Images/tema3/img_5_1.gif' alt='')
+         
+        .p-4(titulo='Desarrollo' numero='4')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Desarrollo
@@ -64,11 +74,11 @@
               figure
                 img(src='@/assets/curso/Images/tema3/img_5.svg' alt='')
 
-        .p-4(titulo='Implementación y prueba' numero='3')
+        .p-4(titulo='Implementación y prueba' numero='5')
           .row.align-items-center
             .col-lg-8
               h3.mb-3 Implementación y prueba
-              p Finalmente, una vez que se detectaron y corrigieron los problemas, se pasa al desarrollo e implementación del sitio web. Aquí se busca poner el proyecto web en producto final, para realizar el lanzamiento.
+              p Finalmente, una vez que se detectaron y corrigieron los problemas, se pasa al desarrollo e implementación del sitio <i>web</i>. Aquí se busca poner el proyecto <i>web</i> en producto final, para realizar el lanzamiento.
             .col-lg-4
               figure
                 img(src='@/assets/curso/Images/tema3/img_6.svg' alt='')
@@ -79,10 +89,10 @@
       :style="{'background-image': `url(${require('@/assets/curso/Images/tema3/img_8.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Según Interaction <i>Design Foundation IDF</i>, los diseñadores centrados en el usuario necesitan de una comprensión profunda de sus usuarios objetivo, sus requerimientos y su entorno (IDF, 2020). Tener empatía y ser sensible a los puntos débiles de su usuario es clave.
+        p.mb-0 Según <i>Interaction Design Foundation IDF</i>, los diseñadores centrados en el usuario necesitan de una comprensión profunda de sus usuarios objetivo, sus requerimientos y su entorno (IDF, 2020). Tener empatía y ser sensible a los puntos débiles de su usuario es clave.
      
 
-    p.mb-3 IDF señala que el proceso tiene como objetivo capturar y abordar toda la experiencia del usuario de una interfaz. Por lo tanto, se debe involucrar a profesionales de múltiples disciplinas (por ejemplo, etnógrafos, psicólogos, ingenieros de software y hardware), así como a expertos en el dominio, partes interesadas y los propios usuarios.
+    p.mb-3 IDF señala que el proceso tiene como objetivo capturar y abordar toda la experiencia del usuario de una interfaz. Por lo tanto, se debe involucrar a profesionales de múltiples disciplinas (por ejemplo, etnógrafos, psicólogos, ingenieros de <i>software</i>, y <i>hardware</i>), así como a expertos en el dominio, partes interesadas y los propios usuarios.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-5.mb-lg-0
@@ -104,16 +114,16 @@
         .cajon.color-acento-contenido.p-4.mb-3
           p.mb-3 Según la ISO 9241- 210: 2010 (ISO, 2019), la definición exacta de experiencia de usuario es: “Las percepciones y respuestas de una persona resultantes del uso y / o uso anticipado de un producto, sistema o servicio”. 
 
-        p.mb-3  Así que el interés por la experiencia de usuario ha crecido de manera constante en los últimos años. Aunque UX se refiere a cómo un usuario interpreta la interacción que tiene con cualquier producto o servicio, ocupa un lugar especial en el diseño de interfaces web y móviles.
+        p.mb-3  Así que el interés por la experiencia de usuario ha crecido de manera constante en los últimos años. Aunque UX se refiere a cómo un usuario interpreta la interacción que tiene con cualquier producto o servicio, ocupa un lugar especial en el diseño de interfaces <i>web</i> y móviles.
 
-        p Finalmente, la UX no es un diseño centrado en el usuario. Más bien, UX es un valor del diseño centrado en el usuario, y se necesita crear experiencias web y móviles que atraigan a los usuarios y los mantengan interesados. Conocer a los usuarios y diseñar para ellos no es solo una buena práctica de diseño, también beneficia a la marca.
+        p Finalmente, la UX no es un diseño centrado en el usuario. Más bien, UX es un valor del diseño centrado en el usuario, y se necesita crear experiencias <i>web</i> y móviles que atraigan a los usuarios y los mantengan interesados. Conocer a los usuarios y diseñar para ellos no es solo una buena práctica de diseño, también beneficia a la marca.
       .col-lg-4.mb-5.mb-lg-0
         img(src="@/assets/curso/Images/tema3/img_9.svg", alt="")
     
     .row.justify-content-center.mb-5
       h3.mb-3 SÍNTESIS
 
-      p.mb-3 Las pruebas de usabilidad son una necesidad para el desarrollador de software, debe tenerse en cuenta siempre la necesidad del usuario, ya que los gustos e intereses de quien desarrolla el contenido y los de quien lo va a usar no son necesariamente correspondientes. Una vez se ha determinado cuál es la prueba que mejor se adapta a sus necesidades, se requiere encontrar participantes válidos, bien sea usuarios directos o expertos en los contenidos que se encuentra desarrollando, sin perder de vista que estos deben tener correspondencia con la población objetivo a la cual se pretende impactar.
+      p.mb-3 Las pruebas de usabilidad son una necesidad para el desarrollador de <i>software</i>,, debe tenerse en cuenta siempre la necesidad del usuario, ya que los gustos e intereses de quien desarrolla el contenido y los de quien lo va a usar no son necesariamente correspondientes. Una vez se ha determinado cuál es la prueba que mejor se adapta a sus necesidades, se requiere encontrar participantes válidos, bien sea usuarios directos o expertos en los contenidos que se encuentra desarrollando, sin perder de vista que estos deben tener correspondencia con la población objetivo a la cual se pretende impactar.
 
       p.mb-3 Las diferentes pruebas que hemos revisado permiten validar la usabilidad y accesibilidad de los contenidos, a la vez que mejorarán la experiencia de los usuarios, y ahorrarán tiempo y dinero en su creación.
 

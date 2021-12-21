@@ -10,35 +10,33 @@
     .row.align-items-center
       .col-lg-12.mb-5
         img(src="@/assets/curso/Images/tema2/img_1.png", alt= "")
-
-    p.mb-3 Una vez revisado y comprendido de manera precisa y sucinta los conceptos y técnicas que engloban en gran medida la disciplina de la usabilidad, es posible ahora entrar a uno de los más interesantes mecanismos y apartados de este componente, que es la evaluación.
-    
     Separador 
    
     #t_2_1.titulo-segundo
       h2 2.1 Introducción y conceptos básicos
-    p.mb-5 A Son patrones de X niveles y se organizan en capas horizontales. Muchas de las aplicaciones informáticas han tomado este patrón como arquitectura, funciona conectando los componentes, pero estos no dependen uno del otro. Cada una de estas capas cumple con una función específica en el desarrollo de la aplicación. Su objetivo primordial es la separación de la lógica de negocios de la lógica de diseño, es decir, separar la capa de datos de la capa de presentación al usuario. 
+    p.mb-5 A Una vez revisado y comprendido de manera precisa y sucinta los conceptos y técnicas que engloban en gran medida la disciplina de la usabilidad, es posible ahora entrar a uno de los más interesantes mecanismos y apartados de este componente, que es la evaluación.
+    
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.verticalLine
       .bloque-texto-g__img.m-left(
     :style="{'background-image': `url(${require('@/assets/curso/Images/tema2/img_2.png')})`}"
     )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Una de las científicas informáticas más renombradas en el mundo de la interacción humano-computador, Jenny Preece, indica en su libro Interaction Design: Beyond Human‑Computer lo siguiente: “…hace poco me encontré con dos diseñadores de sitios web que orgullosos de su nuevo sitio me miraron atónitos cuando les pregunté si lo habían probado con usuarios. «No», dijeron, «pero nosotros sabemos que está bien». Indagué un poco más y descubrí que en su empresa eran considerados como expertos pues conocían perfectamente todos los trucos del diseño web…”
+        p.mb-0 Una de las científicas informáticas más renombradas en el mundo de la interacción humano-computador, Jenny Preece, indica en su libro <i>Interaction Design: Beyond Human‑Computer </i>lo siguiente: “…hace poco me encontré con dos diseñadores de sitios <i>web</i> que orgullosos de su nuevo sitio me miraron atónitos cuando les pregunté si lo habían probado con usuarios. «No», dijeron, «pero nosotros sabemos que está bien». Indagué un poco más y descubrí que en su empresa eran considerados como expertos pues conocían perfectamente todos los trucos del diseño <i>web…</i>”
       
 
-    p.mb-3 Lo anteriormente expuesto constituye una de las verdades que lamentablemente se da con demasiada frecuencia y, por infortunio, es lo habitual. Además, aunque el concepto de usabilidad pueda ser sencillo de comprender, conseguir que un producto sea usable y comprensible es difícil, ahora, aún más, que deje sensaciones positivas al usarlo (experiencia de usuario). En general, cuando se diseña y desarrolla una aplicación software, se está más preocupado por la funcionalidad que por la usabilidad del mismo, y eso que no se trata de la accesibilidad, que en últimas es poco tratada.
+    p.mb-3 Lo anteriormente expuesto constituye una de las verdades que lamentablemente se da con demasiada frecuencia y, por infortunio, es lo habitual. Además, aunque el concepto de usabilidad pueda ser sencillo de comprender, conseguir que un producto sea usable y comprensible es difícil, ahora, aún más, que deje sensaciones positivas al usarlo (experiencia de usuario). En general, cuando se diseña y desarrolla una aplicación <i>software</i>, se está más preocupado por la funcionalidad que por la usabilidad del mismo, y eso que no se trata de la accesibilidad, que en últimas es poco tratada.
 
-    p.mb-5 En ese sentido, la actividad de evaluar se muestra como una de las fases más importantes de la ingeniería de software, así como de diversos modelos de desarrollo, debido a que en esa fase radica o confluye todo el desarrollo y hasta las expectativas de los implicados. Esto está soportado bajo la reseña que indica el profesor Tony Granollers, gurú de la usabilidad y accesibilidad, el cual indica: 
+    p.mb-5 En ese sentido, la actividad de evaluar se muestra como una de las fases más importantes de la ingeniería de <i>software</i>,, así como de diversos modelos de desarrollo, debido a que en esa fase radica o confluye todo el desarrollo y hasta las expectativas de los implicados. Esto está soportado bajo la reseña que indica el profesor Tony Granollers, gurú de la usabilidad y accesibilidad, el cual indica: 
 
     .row.align-items-center.mb-4 
       .col-lg-12.tarjeta.ofvisible(style='background-color:#1565c0;')
         .col-auto.ms-5
           img(src='@/assets/curso/Images/tema2/comilla1.svg' alt='"' style='width:73px;margin-top:-10px;')
         .col-11.mx-auto.p-5
-          p.text-white La evaluación no debe ser pensada solamente como una simple etapa del proceso general del diseño y mucho menos de la implementación del sistema, sino que esta debe realizarse durante todo el ciclo de vida del proceso de desarrollo, los resultados de la cual deben aportar mejoras respecto a las soluciones evaluadas y correcciones respecto a errores reportados
-          h6.text-right.fRight.mb-5 <span class='text-white'>(Landa, 2018c)</span> <i class='fas fa-square cac'></i>
-
+          p.text-white La evaluación no debe ser pensada solamente como una simple etapa del proceso general del diseño y mucho menos de la implementación del sistema, sino que esta debe realizarse durante todo el ciclo de vida del proceso de desarrollo, los resultados de la cual deben aportar mejoras respecto a las soluciones evaluadas y correcciones respecto a errores reportados.
+          h6.text-right.fRight.mb-5 <span class='text-white'>(Granollers, 2016).</span> <i class='fas fa-square cac'></i>
+    
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-7.mb-5.mb-lg-0
@@ -70,20 +68,20 @@
                 .col-md.tarjeta.sp2.p-5
                   .row.justify-content-center.mb-4
                     .col-lg-12
-                      .h2.text-center.text-small.mb-3 Aquellos que se realizan en el laboratorio
+                      .h4.text-center.mb-3 Aquellos que se realizan en el laboratorio
                         figure
-                          img.my-4(src='@/assets/curso/Images/tema2/ico_1.svg' alt='', style="width:180px; display:block; margin:0 auto;")
+                          img.my-5(src='@/assets/curso/Images/tema2/ico_1.svg' alt='', style="width:180px; display:block; margin:1rem auto;")
                       p.mb-3  El objetivo del evaluador, a veces, es comprobar aspectos sin que sea necesaria la ayuda y/o presencia de los usuarios. Este tipo de comprobaciones y validaciones las realiza, normalmente, en su área de trabajo, que por lo general es en el laboratorio, donde se puede tener una gran oportunidad de traer usuarios para un estudio particular.
 
                       p En la sección de material complementario, se presenta un ejemplo de laboratorio de usabilidad construido por una de las grandes multinacionales, como lo es Oracle. Para visualizar y aprender sobre este escenario, encontrará el enlace con el nombre de laboratorios de usabilidad.
                 .col-md.tarjeta.sp3.p-5
                   .row.justify-content-center.mb-4
                     .col-lg-12
-                      .h2.text-center.text-small Aquellos que se realizan en el entorno natural o habitual del escenario (donde se realizan las tareas a evaluar)
+                      .h4.text-center Aquellos que se realizan en el entorno natural o habitual del escenario (donde se realizan las tareas a evaluar)
                         figure
-                          img.my-3(src='@/assets/curso/Images/tema2/ico_2.svg' alt='', style="width:180px; display:block; margin:0 auto;")
+                          img.my-4(src='@/assets/curso/Images/tema2/ico_2.svg' alt='', style="width:180px; display:block; margin:0 auto;")
                     
-                      p Esta condición se da cuando el evaluador realiza su trabajo en el escenario natural donde se realiza la escena o acciones cotidianas del usuario. Por ejemplo, muchas de las empresas utilizan la tecnología de seguimiento ocular para revisar dónde los usuarios enfocan su atención. Este tipo de prácticas se usa con frecuencia para revisar mejorar la usabilidad de los sitios web de e-commerce, utilizando la técnica de Tracking Eye Movements) para reconocer y comprender la navegación ocular de dichas aplicaciones web.
+                      p Esta condición se da cuando el evaluador realiza su trabajo en el escenario natural donde se realiza la escena o acciones cotidianas del usuario. Por ejemplo, muchas de las empresas utilizan la tecnología de seguimiento ocular para revisar dónde los usuarios enfocan su atención. Este tipo de prácticas se usa con frecuencia para revisar mejorar la usabilidad de los sitios <i>web</i> de <i>e-commerce</i>, utilizando la técnica de Tracking Eye Movements) para reconocer y comprender la navegación ocular de dichas aplicaciones <i>web</i>.
 
          
               .jumbotron-3.p-5.mb-5
@@ -97,9 +95,9 @@
                       .anexo__texto
                         p Oracle Applications User Experience Usability Labs.
             .row.align-items-center.justify-content-center
-              .col-lg-10
+              .col-lg-12
                 h3.mb-3 Tipo de técnica
-                p.mb-3 En cuanto al tipo de técnica de comprobación utilizada, se distinguen tres categorías: inspección, indagación y test, tal como se puede consultar en el siguiente recurso:
+                p.mb-3 En cuanto al tipo de técnica de comprobación utilizada, se distinguen tres categorías: inspección, indagación y <i>test</i>, tal como se puede consultar en el siguiente recurso:
 
             ImagenInfografica.color-secundario.mb-5
                 template(v-slot:imagen)
@@ -107,7 +105,7 @@
                     img(src='@/assets/curso/Images/tema2/img_5.svg', alt='', style="width:918px; display:block; margin:0 auto;")
             
                 .tarjeta.color-acento-botones.p-3(x="9%" y="65%" numero="")
-                  p.mb-3 Es una de las formas más económicas de encontrar errores en la web, aplicación, o cualquier sistema que interactúe con el usuario.
+                  p.mb-3 Es una de las formas más económicas de encontrar errores en la <i>web</i>aplicación, o cualquier sistema que interactúe con el usuario.
                 .tarjeta.color-acento-botones.p-3(x="9%" y="73%" numero="")
                   p.mb-3 Un grupo de evaluadores examina la interfaz, realizando un conjunto de tareas y evaluando su comprensión y facilidad de aprendizaje.
                   p La interfaz está usualmente en forma de prototipo. Es una técnica idónea en la etapa de diseño.
@@ -120,7 +118,7 @@
                 .tarjeta.color-acento-botones.p-3(x="41%" y="66%" numero="")
                   p.mb-3 La investigación de campo, generalmente, implica una combinación del método de observación de participante, entrevistas y análisis. Las grandes corporaciones pueden tener su propio departamento de marketing o investigación, para recopilar datos de fuentes primarias. Sin embargo, para la mayor parte de la investigación de campo, se contrata a terceros que realizan encuestas, grupos focales y entrevistas a nombre de la compañía.
                 .tarjeta.color-acento-botones.p-3(x="41%" y="73%" numero="")
-                  p.mb-3 El Focus Group o Grupo de Discusión Dirigido es una técnica de recogida de datos, donde se reúnen de 6 a 9 personas (generalmente usuarios y también implicados) para discutir aspectos relacionados con el sistema. En ellos, un evaluador experto en usabilidad y/o accesibilidad (dependiendo del objetivo de la evaluación) realiza la función de moderador. Este preparará previamente la lista de aspectos a discutir y se encargará de recoger la información que necesita de la discusión.
+                  p.mb-3 El <i>Focus Group</i> o Grupo de Discusión Dirigido es una técnica de recogida de datos, donde se reúnen de 6 a 9 personas (generalmente usuarios y también implicados) para discutir aspectos relacionados con el sistema. En ellos, un evaluador experto en usabilidad y/o accesibilidad (dependiendo del objetivo de la evaluación) realiza la función de moderador. Este preparará previamente la lista de aspectos a discutir y se encargará de recoger la información que necesita de la discusión.
                   p Esto permite capturar reacciones espontáneas e ideas de los usuarios que evolucionan en el proceso dinámico del grupo
                 .tarjeta.color-acento-botones.p-3(x="41%" y="82%" numero="")
                   p.mb-3 Entrevistar a los usuarios respecto de su experiencia en un sistema interactivo resulta una manera directa y una técnica potente de adquirir información. Pueden ser estructuradas o abiertas (o desestructuradas), en las primeras, el evaluador es más rígido en procurar el buen seguimiento del guión preestablecido, mientras que en las abiertas, se da espacio a los contertulios a expresarse con más libertad.
@@ -130,30 +128,30 @@
                   p Así pues, la base del cuestionario es la recolección de información a partir de respuestas contestadas por los usuarios y/o los implicados.
                 .tarjeta.color-acento-botones.p-3(x="41%" y="97%" numero="")
                   p.mb-3 La técnica grabación de uso, más conocida como análisis de logs o simplemente logging, se basa en «grabar» o «recoger» todas las actividades realizadas por el usuario con el sistema para su posterior análisis. Para ello, se precisa de una aplicación secundaria que realice automáticamente esta labor y que pase, además, totalmente inadvertida para el usuario.
-                  p El logging implica disponer en el ordenador de una aplicación del sistema que recoja automáticamente estadísticas sobre el uso detallado del sistema. Es útil porque muestra cómo los usuarios realizan su trabajo real y porque es fácil recoger automáticamente datos de una gran cantidad de usuarios que trabajan bajo diversas circunstancias.
+                  p El <i>logging</i>implica disponer en el ordenador de una aplicación del sistema que recoja automáticamente estadísticas sobre el uso detallado del sistema. Es útil porque muestra cómo los usuarios realizan su trabajo real y porque es fácil recoger automáticamente datos de una gran cantidad de usuarios que trabajan bajo diversas circunstancias.
                 .tarjeta.color-acento-botones.p-3(x="74%" y="65%" numero="")
-                  p.mb-3 En este método de evaluación, conocido como «thinking aloud», descrito por Nielsen, se pide a los usuarios, de forma individual, que expresen en voz alta y libremente sus pensamientos, sentimientos y opiniones sobre cualquier aspecto (diseño, funcionalidad, etc.), mientras que interactúan con el sistema o un prototipo del mismo.
+                  p.mb-3 En este método de evaluación, conocido como <i>«thinking aloud»</i>, descrito por Nielsen, se pide a los usuarios, de forma individual, que expresen en voz alta y libremente sus pensamientos, sentimientos y opiniones sobre cualquier aspecto (diseño, funcionalidad, etc.), mientras que interactúan con el sistema o un prototipo del mismo.
                   p Resulta ser un método altamente eficaz para capturar aspectos relacionados con las actividades cognitivas de los usuarios potenciales del sistema evaluado.
                 .tarjeta.color-acento-botones.p-3(x="74%" y="73%" numero="")
-                  p.mb-3 Una variante del thinking aloud es el método conocido como Interacción Constructiva, el cual, en vez de un solo usuario, cuenta dos usuarios que realizan el test simultáneamente.
-                  p La verbalización conjunta lo hace “más natural”. Aunque, como desventaja, puede ser que los usuarios tengan diferentes estrategias de aprendizaje y dificulten el test.
+                  p.mb-3 Una variante del <i>thinking aloud</i> es el método conocido como Interacción Constructiva, el cual, en vez de un solo usuario, cuenta dos usuarios que realizan el <i>test</i> simultáneamente.
+                  p La verbalización conjunta lo hace “más natural”. Aunque, como desventaja, puede ser que los usuarios tengan diferentes estrategias de aprendizaje y dificulten el <i>test</i>.
                 .tarjeta.color-acento-botones.p-3(x="74%" y="81%" numero="")
-                  p.mb-3 El método del conductor es algo diferente de estos métodos de test vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el test.
+                  p.mb-3 El método del conductor es algo diferente de estos métodos de <i>test</i> vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el <i>test</i>.
                 .tarjeta.color-acento-botones.p-3(x="74%" y="89%" numero="")
                   p.mb-3 La técnica conocida como ordenación de tarjetas, o card sorting, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
                   p.mb-3 Se trata de una técnica simple -fácil de entender y de aplicar-, barata, rápida y que involucra a los usuarios, que es especialmente indicada cuando disponemos de una serie de ítems que precisan ser catalogados, así como para decidir la estructura organizativa de cualquier sistema de información.
-                  p Esta técnica tiene demostrada utilidad para desarrollar sitios web, para lo cual está especialmente recomendada. 
+                  p Esta técnica tiene demostrada utilidad para desarrollar sitios <i>web</i>, para lo cual está especialmente recomendada. 
             
             .row.align-items-center.justify-content-center.mb-5
               .col-lg-11
-                .cajon.cajon.color-acento-contenido.p-4
+                .cajon.color-custom-7.p-4
                   p.mb-3 Para el caso especial de este componente formativo, se hará énfasis en la técnica de la evaluación heurística, debido a la complejidad de esta disciplina y también a la extensión del componente formativo. No obstante, se dejan en el material complementario enlaces a videos y artículos sobre las diferentes técnicas de evaluación, como soporte al proceso formativo.
                 
     
             .row.align-items-center.justify-content-center
-              .col-lg-11
+              .col-lg-12
                 h3.mb-3 Evaluación heurística 
-                p.mb-3 Toni Granollers, en su página oficinal de metodologías de usabilidad, se refiere a esta técnica como: “La «Heurística» es un método de evaluación de sistemas interactivos desarrollado por Nielsen y Molich, que consiste en analizar (mediante la inspección de varios evaluadores expertos) la calidad de uso de una interfaz, a partir de comprobar su conformidad respecto unos principios reconocidos de usabilidad”.
+                p.mb-3 Toni Granollers, en su página oficial de metodologías de usabilidad, se refiere a esta técnica como: “La «Heurística» es un método de evaluación de sistemas interactivos desarrollado por Nielsen y Molich, que consiste en anxalizar (mediante la inspección de varios evaluadores expertos) la calidad de uso de una interfaz, a partir de comprobar su conformidad respecto unos principios reconocidos de usabilidad”.
 
             .row.align-items-center.mb-5
               .col-lg-7.mb-5.mb-lg-0
@@ -169,9 +167,9 @@
                     img(src='@/assets/curso/Images/tema2/img_7.svg', alt='', style="width:900px; display:block; margin:0 auto;")
             
                 .tarjeta.color-acento-botones.p-3(x="18%" y="23%" numero="")
-                  p.mb-3 El sistema software siempre debe mantener a todos los usuarios informados sobre lo que ocurre o pasa en la aplicación, a través de una retroalimentación apropiada en un tiempo razonable, de hecho, el tiempo es lo que más cuenta en la actualidad, debido a que los usuarios se han acostumbrado a la inmediatez y, además, los usuarios ya poco leen en la web, dado que han afianzado la acción de escanear.
+                  p.mb-3 El sistema <i>software</i> siempre debe mantener a todos los usuarios informados sobre lo que ocurre o pasa en la aplicación, a través de una retroalimentación apropiada en un tiempo razonable, de hecho, el tiempo es lo que más cuenta en la actualidad, debido a que los usuarios se han acostumbrado a la inmediatez y, además, los usuarios ya poco leen en la <i>web</i>, dado que han afianzado la acción de escanear.
                 .tarjeta.color-acento-botones.p-3(x="34%" y="23%" numero="")
-                  p.mb-3 El sistema software debe hablar en el lenguaje del usuario, con palabras, frases, coloquios y conceptos familiares para él. Aquí cobra bastante importancia la arquitectura de la información, vista anteriormente. Por eso, utilizar convenciones del mundo real, haciendo que la información aparezca en un orden natural y lógico, este tipo de convenciones y gráficos es lo que técnicamente se llaman metáforas.
+                  p.mb-3 El sistema <i>software</i> debe hablar en el lenguaje del usuario, con palabras, frases, coloquios y conceptos familiares para él. Aquí cobra bastante importancia la arquitectura de la información, vista anteriormente. Por eso, utilizar convenciones del mundo real, haciendo que la información aparezca en un orden natural y lógico, este tipo de convenciones y gráficos es lo que técnicamente se llaman metáforas.
                 .tarjeta.color-acento-botones.p-3(x="50%" y="23%" numero="")
                   p.mb-3 Es normal que, cuando se utiliza por primera vez, los usuarios ingresen a un sitio donde no querían, por lo que necesitan una ‘puerta de emergencia’ para salir del estado indeseado. En ese sentido es imperativo ofrecer soporte para deshacer y rehacer acciones.
                 .tarjeta.color-acento-botones.p-3(x="66%" y="23%" numero="")
@@ -229,11 +227,11 @@
               .row.align-items-center.justify-content-center
                 .col-lg-7
                   h3.mb-3 Automatización
-                  p.mb-3 La característica de automatización se centra en la forma en que los resultados son obtenidos al emplear un método. Según la tabla anterior, hay una columna en la que se puede apreciar cuáles tienen esta característica. Esos métodos son aquellos que disponen de mecanismos, sean hardware y/o software, que facilitan la comprobación de los aspectos a validar. Los métodos automáticos resultan eficientes por la inmediatez de sus resultados, dado que siempre provienen de los mismos parámetros, sin apreciaciones subjetivas.
+                  p.mb-3 La característica de automatización se centra en la forma en que los resultados son obtenidos al emplear un método. Según la tabla anterior, hay una columna en la que se puede apreciar cuáles tienen esta característica. Esos métodos son aquellos que disponen de mecanismos, sean <i>hardware</i> y/o <i>software</i>, que facilitan la comprobación de los aspectos a validar. Los métodos automáticos resultan eficientes por la inmediatez de sus resultados, dado que siempre provienen de los mismos parámetros, sin apreciaciones subjetivas.
                 .col-lg-5 
                   figure
                     img(src="@/assets/curso/Images/tema2/img_9.svg" alt="", style="width:300px; display:block; margin:0 auto;")
-              p.mb-3 El principal problema de estos métodos radica en que siempre se soportan en sistemas ya finalizados o versiones beta y no pueden utilizarse en etapas tempranas del ciclo de vida del desarrollo software del proyecto.
+              p.mb-3 El principal problema de estos métodos radica en que siempre se soportan en sistemas ya finalizados o versiones beta y no pueden utilizarse en etapas tempranas del ciclo de vida del desarrollo <i>software</i> del proyecto.
 
             .row.align-items-center.justify-content-center
               .col-lg-12
@@ -244,7 +242,7 @@
               div(titulo="Sin usuarios y/o implicados")
                 .row.align-items-center.justify-content-center.p-4
                     .col-lg-6
-                      p.mb-3 Métodos que son realizados solo por expertos evaluadores con la ayuda de pautas o instrucciones que permiten hacer un seguimiento de lo que han realizado los usuarios mientras utilizan el sistema. Esta modalidad de trabajar sin la presencia de los usuarios permite que este tipo de métodos se realicen con mayor rapidez; no obstante, por el mismo motivo, carecen de la valiosa información que evaluar con dichos usuarios aporta al desarrollo del aplicativo software. Adicionalmente, el método tiene un valor agregado y es que permite detectar errores funcionales.
+                      p.mb-3 Métodos que son realizados solo por expertos evaluadores con la ayuda de pautas o instrucciones que permiten hacer un seguimiento de lo que han realizado los usuarios mientras utilizan el sistema. Esta modalidad de trabajar sin la presencia de los usuarios permite que este tipo de métodos se realicen con mayor rapidez; no obstante, por el mismo motivo, carecen de la valiosa información que evaluar con dichos usuarios aporta al desarrollo del aplicativo <i>software</i>. Adicionalmente, el método tiene un valor agregado y es que permite detectar errores funcionales.
                     .col-lg-6
                       figure  
                         img.mx-5(src='@/assets/curso/Images/tema2/img_10.svg' alt="", style="width:300px; display:block; margin:auto 0;")
@@ -260,11 +258,11 @@
             Separador 
    
             #t_2_2.titulo-segundo
-              h2 2.2  Plan de evaluación. Introducción y conceptos básicos
+              h2 2.2  Plan de evaluación, introducción y conceptos básicos  
             
             .row.align-items-center.justify-content-center.mb-5
               .col-lg-12
-                p.mb-3 Para esta sección, se conocen de manera precisa y teórica los pasos que se deben seguir para la elaboración de un plan de pruebas. Además, se anexa un template o plantilla para este proceso, que agrupa los pasos y todo lo visto anteriormente para que pueda ser aplicado.
+                p.mb-3 Para esta sección, se conocen de manera precisa y teórica los pasos que se deben seguir para la elaboración de un plan de pruebas. Además, se anexa un <i>template</i> o plantilla para este proceso, que agrupa los pasos y todo lo visto anteriormente para que pueda ser aplicado.
 
                 p Un plan de evaluación es una secuencia de pasos ya establecidos, y en la literatura se encuentra gran variedad de estos ejercicios; no obstante, para este fin, se considera el siguiente modelo como el más pertinente, el que propone el Profesor Toni Granollers en su curso de Interacción humano-ordenador (Granollers, 2015). En el siguiente recurso educativo, se presentan los pasos:
             
@@ -273,7 +271,7 @@
                 PasosA.color-acento-contenido.mb-5(tipo="n")
                   .row.align-items-center 
                     .col-md-12
-                      p.mb-0 Antes de iniciar una evaluación, se deben tener claros los objetivos de la misma. No se debe pensar en el sistema en global, sino solo en la parte que va a ser probada y en lo que se espera de la prueba. Aquí toma precisión una de las frases más importantes del desarrollo software: “divide y vencerás”.
+                      p.mb-0 Antes de iniciar una evaluación, se deben tener claros los objetivos de la misma. No se debe pensar en el sistema en global, sino solo en la parte que va a ser probada y en lo que se espera de la prueba. Aquí toma precisión una de las frases más importantes del desarrollo <i>software</i>: “divide y vencerás”.
                   .row.align-items-center 
                     .col-md-12
                       p.mb-5 Cada evaluación debe tener un responsable (puede ser un integrante del equipo de desarrollo), el cual tendrá las siguientes responsabilidades:
@@ -310,21 +308,21 @@
             
             .row.align-items-center.justify-content-center
               .col-lg-12
-                p.mb-3 Existe una de las mejores plantillas de plan de pruebas de usabilidad para sistemas software. Esta plantilla es muy intuitiva de manejar y desglosa los apartados que ya se han visto anteriormente, y es el objetivo real de este componente. Por lo que se sugiere al aprendiz leer con detenimiento esta base conceptual para que pueda aplicar esos conocimientos en la plantilla.  
+                p.mb-3 Existe una de las mejores plantillas de plan de pruebas de usabilidad para sistemas <i>software</i>. Esta plantilla es muy intuitiva de manejar y desglosa los apartados que ya se han visto anteriormente, y es el objetivo real de este componente. Por lo que se sugiere al aprendiz leer con detenimiento esta base conceptual para que pueda aplicar esos conocimientos en la plantilla.  
               
             .row.justify-content-center.align-items-center.mb-5
               .col-12.col-lg-8.mb-5.mb-lg-0
                 .jumbotron-10.mb-3.p-3
                   .row.align-items-center.justify-content-center
                     .col-lg-6
-                      p.mb-3 Si es de su interés conocer la aplicación de plantilla del plan de pruebas de usabilidad para sistemas de software, se le invita a consultar el material complementario que puede acceder en el siguiente enlace. 
+                      p.mb-3 Si es de su interés conocer la aplicación de plantilla del plan de pruebas de usabilidad para sistemas de <i>software</i>, se le invita a consultar el material complementario que puede acceder en el siguiente enlace. 
                     .col-lg-6
                       a.anexo.mb-4.mb-lg-0(href="https://profs.info.uaic.ro/~stefan.negru/usability" target="_blank")
                         .anexo__icono
                           img(src="@/assets/template/icono-link.svg")
                         .anexo__texto
                           p Usability Test Plan Template
-                p.mb-3 Finalmente, en relación con los fundamentos de la accesibilidad, esta es una disciplina que debe tenerse en cuenta para los procesos de desarrollo y evaluación y no debe ser olvidada. Usted podrá mejorar sus competencias y habilidades en el desarrollo y evaluación de proyectos software; de esta forma, se espera que los sistemas sean cada vez más prolijos. 
+                p.mb-3 Finalmente, en relación con los fundamentos de la accesibilidad, esta es una disciplina que debe tenerse en cuenta para los procesos de desarrollo y evaluación y no debe ser olvidada. Usted podrá mejorar sus competencias y habilidades en el desarrollo y evaluación de proyectos <i>software</i>; de esta forma, se espera que los sistemas sean cada vez más prolijos. 
                 .jumbotron-11.mb-3.p-3 
                   .row.align-items-center.justify-content-center
                     .col-lg-6

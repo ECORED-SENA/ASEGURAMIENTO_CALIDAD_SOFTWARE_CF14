@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Plan de pruebas de usabilidad',
     descripcionCurso:
-      'Los conceptos, técnicas y herramientas relacionados con la arquitectura de la información determinan los elementos de interacción y sus funciones en la interfaz de un sistema de software interactivo. Además de permitir conocer a los usuarios, el tester debe entender que, para el éxito de la aplicación, es necesario validar la naturaleza del funcionamiento y, sobre todo, que la aplicación realmente sea usable y accesible.  ',
+      'Los conceptos, técnicas y herramientas relacionados con la arquitectura de la información determinan los elementos de interacción y sus funciones en la interfaz de un sistema de <i>software</i> interactivo. Además de permitir conocer a los usuarios, el tester debe entender que, para el éxito de la aplicación, es necesario validar la naturaleza del funcionamiento y, sobre todo, que la aplicación realmente sea usable y accesible.  ',
     imagenBannerPrincipal: require('@/assets/curso/Images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/Images/header/fondo-banner-principal.png'),
   },
@@ -68,7 +68,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Plan de evaluación. Introducción y conceptos básicos',
+            titulo: 'Plan de evaluación, introducción y conceptos básicos ',
             hash: 't_2_2',
           },
         ],
@@ -131,7 +131,7 @@ export default {
     },
     {
       referencia:
-        'Assistant Secretary for Public Affairs. (2020). Card Sorting. Usability.gov. ',
+        '<i>Assistant Secretary for Public Affairs.</i> (2020). <i>Card Sorting</i>. Usability.gov. ',
       link:
         'https://www.usability.gov/how-to-and-tools/methods/card-sorting.html ',
     },
@@ -160,24 +160,24 @@ export default {
     },
     {
       referencia:
-        'Justinmind. (2018). UCD vs UX: What’s the difference? - UX Planet. Medium ',
+        'Justinmind. (2018). UCD vs UX: <i>What’s the difference? </i> - UX Planet. Medium ',
       link: 'https://uxplanet.org/ucd-vs-ux-whats-the-difference-255443efa5f  ',
     },
     {
       referencia:
-        'Barbaroux, M. (2016). Untangling UX, part 1: Design Thinking vs UCD. Cambridge Consultants.  ',
+        'Barbaroux, M. (2016). <i>Untangling UX, part 1: Design Thinking vs UCD. Cambridge Consultants</i>.  ',
       link:
         'https://www.cambridgeconsultants.com/insights/untangling-ux-part-1-design-thinking-vs-ucd ',
     },
     {
       referencia:
-        'Interaction Design Foundation [IDF]. (2020). User Centered Design.  ',
+        '<i>Interaction Design Foundation</i> [IDF]. (2020). <i>User Centered Design</i>.  ',
       link:
         'https://www.interaction-design.org/literature/topics/user-centered-design  ',
     },
     {
       referencia:
-        'ISO. (2019).  Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems (ISO 9241-210:2010).   ',
+        'ISO. (2019).  <i>Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems</i> (ISO 9241-210:2010).   ',
       link: 'https://www.iso.org/standard/52075.html ',
     },
   ],
@@ -188,21 +188,12 @@ export default {
         'Disciplina encargada del estudio, análisis, organización, disposición y estructuración de la información en espacios de contenidos, y de la selección y presentación de los datos en los sistemas de información interactivos y no interactivos.',
     },
     {
-      termino: 'Iterar',
-      significado: 'Realizar cierta acción o acciones varias veces.',
-    },
-    {
-      termino: 'Brainstorming',
+      termino: '<i>Brainstorming</i>',
       significado:
         'Es una herramienta de trabajo grupal, que facilita el surgimiento de nuevas ideas sobre un tema o problema determinado. La lluvia de ideas es una técnica de grupo para generar ideas originales en un ambiente relajado.',
     },
     {
-      termino: 'Implementación',
-      significado:
-        'Poner en funcionamiento o aplicar métodos, medidas , etc., para llevar algo a cabo.',
-    },
-    {
-      termino: 'Card Sorting',
+      termino: '<i>Card Sorting</i>',
       significado:
         'Método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión con este método, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden ayudar a etiquetar estos grupos.',
     },
@@ -236,7 +227,7 @@ export default {
     },
     {
       texto:
-        'Oracleusableapps. (2013). Oracle Applications User Experience Usability Labs [Video]. YouTube. ',
+        'Oracleusableapps. (2013). Oracle <i>Applications User Experience Usability</i> Labs [Video]. YouTube. ',
       tipo: 'Video Youtube',
       link: 'https://www.youtube.com/watch?v=Nar8SZK3MdU ',
     },
@@ -369,7 +360,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
