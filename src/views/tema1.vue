@@ -120,7 +120,7 @@
     p.mb-5 La dificultad, no obstante, radica en una serie de características que se debe tener en cuenta sobre los usuarios y contenidos:
     
     .row.mb-5.justify-content-center
-      .col-lg-10
+      .col-lg-12
         ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
