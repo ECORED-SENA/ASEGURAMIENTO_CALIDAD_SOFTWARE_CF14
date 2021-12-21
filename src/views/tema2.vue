@@ -98,49 +98,50 @@
               .col-lg-12
                 h3.mb-3 Tipo de técnica
                 p.mb-3 En cuanto al tipo de técnica de comprobación utilizada, se distinguen tres categorías: inspección, indagación y <i>test</i>, tal como se puede consultar en el siguiente recurso:
-
-            ImagenInfografica.color-secundario.mb-5
-                template(v-slot:imagen)
-                  figure
-                    img(src='@/assets/curso/Images/tema2/img_5.svg', alt='', style="width:918px; display:block; margin:0 auto;")
-            
-                .tarjeta.color-acento-botones.p-3(x="9%" y="65%" numero="")
-                  p.mb-3 Es una de las formas más económicas de encontrar errores en la <i>web</i>aplicación, o cualquier sistema que interactúe con el usuario.
-                .tarjeta.color-acento-botones.p-3(x="9%" y="73%" numero="")
-                  p.mb-3 Un grupo de evaluadores examina la interfaz, realizando un conjunto de tareas y evaluando su comprensión y facilidad de aprendizaje.
-                  p La interfaz está usualmente en forma de prototipo. Es una técnica idónea en la etapa de diseño.
-                .tarjeta.color-acento-botones.p-3(x="9%" y="81%" numero="")
-                  p.mb-3 Son reuniones multidisciplinares, en las que diseñadores, desarrolladores, usuarios y expertos en usabilidad asumen el rol de usuarios del sistema.
-                .tarjeta.color-acento-botones.p-3(x="9%" y="89%" numero="")
-                  p.mb-3 Este método aporta una primera aproximación conocida de implicar a usuarios en los tradicionales recorridos cognitivos. Pues, conocedores de las ventajas de estos recorridos, se hace consistente evidenciar los principales problemas que puedan presentarse y, a la vez, detectados por los usuarios.
-                .tarjeta.color-acento-botones.p-3(x="9%" y="96%" numero="")
-                  p.mb-3 Se realiza por medio de un experto en un estándar de la interfaz, que puede ser de facto o de iure. El experto realiza una inspección minuciosa a la interfaz, para comprobar que en todo momento y de manera global se cumplen los puntos definidos en el estándar.
-                .tarjeta.color-acento-botones.p-3(x="41%" y="66%" numero="")
-                  p.mb-3 La investigación de campo, generalmente, implica una combinación del método de observación de participante, entrevistas y análisis. Las grandes corporaciones pueden tener su propio departamento de marketing o investigación, para recopilar datos de fuentes primarias. Sin embargo, para la mayor parte de la investigación de campo, se contrata a terceros que realizan encuestas, grupos focales y entrevistas a nombre de la compañía.
-                .tarjeta.color-acento-botones.p-3(x="41%" y="73%" numero="")
-                  p.mb-3 El <i>Focus Group</i> o Grupo de Discusión Dirigido es una técnica de recogida de datos, donde se reúnen de 6 a 9 personas (generalmente usuarios y también implicados) para discutir aspectos relacionados con el sistema. En ellos, un evaluador experto en usabilidad y/o accesibilidad (dependiendo del objetivo de la evaluación) realiza la función de moderador. Este preparará previamente la lista de aspectos a discutir y se encargará de recoger la información que necesita de la discusión.
-                  p Esto permite capturar reacciones espontáneas e ideas de los usuarios que evolucionan en el proceso dinámico del grupo
-                .tarjeta.color-acento-botones.p-3(x="41%" y="82%" numero="")
-                  p.mb-3 Entrevistar a los usuarios respecto de su experiencia en un sistema interactivo resulta una manera directa y una técnica potente de adquirir información. Pueden ser estructuradas o abiertas (o desestructuradas), en las primeras, el evaluador es más rígido en procurar el buen seguimiento del guión preestablecido, mientras que en las abiertas, se da espacio a los contertulios a expresarse con más libertad.
-                  p Las entrevistas pueden ser efectivas para una evaluación de alto nivel, particularmente para extraer información sobre las preferencias del usuario, impresiones y actitudes. Pueden ayudar a encontrar problemas no previstos en el diseño.
-                .tarjeta.color-acento-botones.p-3(x="41%" y="89%" numero="")
-                  p.mb-3 En el ámbito de la evaluación de sistemas interactivos, hablamos de cuestionarios para referirnos a listas de preguntas que el evaluador distribuye entre usuarios y/o implicados, para que estos nos las devuelvan con sus respuestas y, así, poder extraer conclusiones. El cuestionario normalmente se distribuye en formato escrito y las preguntas plantean aspectos relacionados con el sistema o aplicación concreta.
-                  p Así pues, la base del cuestionario es la recolección de información a partir de respuestas contestadas por los usuarios y/o los implicados.
-                .tarjeta.color-acento-botones.p-3(x="41%" y="97%" numero="")
-                  p.mb-3 La técnica grabación de uso, más conocida como análisis de logs o simplemente logging, se basa en «grabar» o «recoger» todas las actividades realizadas por el usuario con el sistema para su posterior análisis. Para ello, se precisa de una aplicación secundaria que realice automáticamente esta labor y que pase, además, totalmente inadvertida para el usuario.
-                  p El <i>logging</i>implica disponer en el ordenador de una aplicación del sistema que recoja automáticamente estadísticas sobre el uso detallado del sistema. Es útil porque muestra cómo los usuarios realizan su trabajo real y porque es fácil recoger automáticamente datos de una gran cantidad de usuarios que trabajan bajo diversas circunstancias.
-                .tarjeta.color-acento-botones.p-3(x="74%" y="65%" numero="")
-                  p.mb-3 En este método de evaluación, conocido como <i>«thinking aloud»</i>, descrito por Nielsen, se pide a los usuarios, de forma individual, que expresen en voz alta y libremente sus pensamientos, sentimientos y opiniones sobre cualquier aspecto (diseño, funcionalidad, etc.), mientras que interactúan con el sistema o un prototipo del mismo.
-                  p Resulta ser un método altamente eficaz para capturar aspectos relacionados con las actividades cognitivas de los usuarios potenciales del sistema evaluado.
-                .tarjeta.color-acento-botones.p-3(x="74%" y="73%" numero="")
-                  p.mb-3 Una variante del <i>thinking aloud</i> es el método conocido como Interacción Constructiva, el cual, en vez de un solo usuario, cuenta dos usuarios que realizan el <i>test</i> simultáneamente.
-                  p La verbalización conjunta lo hace “más natural”. Aunque, como desventaja, puede ser que los usuarios tengan diferentes estrategias de aprendizaje y dificulten el <i>test</i>.
-                .tarjeta.color-acento-botones.p-3(x="74%" y="81%" numero="")
-                  p.mb-3 El método del conductor es algo diferente de estos métodos de <i>test</i> vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el <i>test</i>.
-                .tarjeta.color-acento-botones.p-3(x="74%" y="89%" numero="")
-                  p.mb-3 La técnica conocida como ordenación de tarjetas, o card sorting, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
-                  p.mb-3 Se trata de una técnica simple -fácil de entender y de aplicar-, barata, rápida y que involucra a los usuarios, que es especialmente indicada cuando disponemos de una serie de ítems que precisan ser catalogados, así como para decidir la estructura organizativa de cualquier sistema de información.
-                  p Esta técnica tiene demostrada utilidad para desarrollar sitios <i>web</i>, para lo cual está especialmente recomendada. 
+            .row.mb-5.justify-content-center
+              .col-lg-12
+                ImagenInfografica.color-secundario.mb-5
+                    template(v-slot:imagen)
+                      figure
+                        img(src='@/assets/curso/Images/tema2/img_5.svg', alt='')
+                
+                    .tarjeta.color-acento-botones.p-3(x="7%" y="65%" numero="")
+                      p.mb-3 Es una de las formas más económicas de encontrar errores en la <i>web</i>aplicación, o cualquier sistema que interactúe con el usuario.
+                    .tarjeta.color-acento-botones.p-3(x="7%" y="73%" numero="")
+                      p.mb-3 Un grupo de evaluadores examina la interfaz, realizando un conjunto de tareas y evaluando su comprensión y facilidad de aprendizaje.
+                      p La interfaz está usualmente en forma de prototipo. Es una técnica idónea en la etapa de diseño.
+                    .tarjeta.color-acento-botones.p-3(x="7%" y="81%" numero="")
+                      p.mb-3 Son reuniones multidisciplinares, en las que diseñadores, desarrolladores, usuarios y expertos en usabilidad asumen el rol de usuarios del sistema.
+                    .tarjeta.color-acento-botones.p-3(x="7%" y="89%" numero="")
+                      p.mb-3 Este método aporta una primera aproximación conocida de implicar a usuarios en los tradicionales recorridos cognitivos. Pues, conocedores de las ventajas de estos recorridos, se hace consistente evidenciar los principales problemas que puedan presentarse y, a la vez, detectados por los usuarios.
+                    .tarjeta.color-acento-botones.p-3(x="7%" y="96%" numero="")
+                      p.mb-3 Se realiza por medio de un experto en un estándar de la interfaz, que puede ser de facto o de iure. El experto realiza una inspección minuciosa a la interfaz, para comprobar que en todo momento y de manera global se cumplen los puntos definidos en el estándar.
+                    .tarjeta.color-acento-botones.p-3(x="41%" y="66%" numero="")
+                      p.mb-3 La investigación de campo, generalmente, implica una combinación del método de observación de participante, entrevistas y análisis. Las grandes corporaciones pueden tener su propio departamento de marketing o investigación, para recopilar datos de fuentes primarias. Sin embargo, para la mayor parte de la investigación de campo, se contrata a terceros que realizan encuestas, grupos focales y entrevistas a nombre de la compañía.
+                    .tarjeta.color-acento-botones.p-3(x="41%" y="73%" numero="")
+                      p.mb-3 El <i>Focus Group</i> o Grupo de Discusión Dirigido es una técnica de recogida de datos, donde se reúnen de 6 a 9 personas (generalmente usuarios y también implicados) para discutir aspectos relacionados con el sistema. En ellos, un evaluador experto en usabilidad y/o accesibilidad (dependiendo del objetivo de la evaluación) realiza la función de moderador. Este preparará previamente la lista de aspectos a discutir y se encargará de recoger la información que necesita de la discusión.
+                      p Esto permite capturar reacciones espontáneas e ideas de los usuarios que evolucionan en el proceso dinámico del grupo
+                    .tarjeta.color-acento-botones.p-3(x="41%" y="82%" numero="")
+                      p.mb-3 Entrevistar a los usuarios respecto de su experiencia en un sistema interactivo resulta una manera directa y una técnica potente de adquirir información. Pueden ser estructuradas o abiertas (o desestructuradas), en las primeras, el evaluador es más rígido en procurar el buen seguimiento del guión preestablecido, mientras que en las abiertas, se da espacio a los contertulios a expresarse con más libertad.
+                      p Las entrevistas pueden ser efectivas para una evaluación de alto nivel, particularmente para extraer información sobre las preferencias del usuario, impresiones y actitudes. Pueden ayudar a encontrar problemas no previstos en el diseño.
+                    .tarjeta.color-acento-botones.p-3(x="41%" y="89%" numero="")
+                      p.mb-3 En el ámbito de la evaluación de sistemas interactivos, hablamos de cuestionarios para referirnos a listas de preguntas que el evaluador distribuye entre usuarios y/o implicados, para que estos nos las devuelvan con sus respuestas y, así, poder extraer conclusiones. El cuestionario normalmente se distribuye en formato escrito y las preguntas plantean aspectos relacionados con el sistema o aplicación concreta.
+                      p Así pues, la base del cuestionario es la recolección de información a partir de respuestas contestadas por los usuarios y/o los implicados.
+                    .tarjeta.color-acento-botones.p-3(x="41%" y="97%" numero="")
+                      p.mb-3 La técnica grabación de uso, más conocida como análisis de logs o simplemente logging, se basa en «grabar» o «recoger» todas las actividades realizadas por el usuario con el sistema para su posterior análisis. Para ello, se precisa de una aplicación secundaria que realice automáticamente esta labor y que pase, además, totalmente inadvertida para el usuario.
+                      p El <i>logging</i>implica disponer en el ordenador de una aplicación del sistema que recoja automáticamente estadísticas sobre el uso detallado del sistema. Es útil porque muestra cómo los usuarios realizan su trabajo real y porque es fácil recoger automáticamente datos de una gran cantidad de usuarios que trabajan bajo diversas circunstancias.
+                    .tarjeta.color-acento-botones.p-3(x="75%" y="65%" numero="")
+                      p.mb-3 En este método de evaluación, conocido como <i>«thinking aloud»</i>, descrito por Nielsen, se pide a los usuarios, de forma individual, que expresen en voz alta y libremente sus pensamientos, sentimientos y opiniones sobre cualquier aspecto (diseño, funcionalidad, etc.), mientras que interactúan con el sistema o un prototipo del mismo.
+                      p Resulta ser un método altamente eficaz para capturar aspectos relacionados con las actividades cognitivas de los usuarios potenciales del sistema evaluado.
+                    .tarjeta.color-acento-botones.p-3(x="75%" y="73%" numero="")
+                      p.mb-3 Una variante del <i>thinking aloud</i> es el método conocido como Interacción Constructiva, el cual, en vez de un solo usuario, cuenta dos usuarios que realizan el <i>test</i> simultáneamente.
+                      p La verbalización conjunta lo hace “más natural”. Aunque, como desventaja, puede ser que los usuarios tengan diferentes estrategias de aprendizaje y dificulten el <i>test</i>.
+                    .tarjeta.color-acento-botones.p-3(x="75%" y="81%" numero="")
+                      p.mb-3 El método del conductor es algo diferente de estos métodos de <i>test</i> vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el <i>test</i>.
+                    .tarjeta.color-acento-botones.p-3(x="75%" y="89%" numero="")
+                      p.mb-3 La técnica conocida como ordenación de tarjetas, o card sorting, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
+                      p.mb-3 Se trata de una técnica simple -fácil de entender y de aplicar-, barata, rápida y que involucra a los usuarios, que es especialmente indicada cuando disponemos de una serie de ítems que precisan ser catalogados, así como para decidir la estructura organizativa de cualquier sistema de información.
+                      p Esta técnica tiene demostrada utilidad para desarrollar sitios <i>web</i>, para lo cual está especialmente recomendada. 
             
             .row.align-items-center.justify-content-center.mb-5
               .col-lg-11
@@ -160,32 +161,34 @@
                       p.mb-0 Este método consiste en aplicar el decálogo de Nielsen, que consta de 10 reglas o lineamientos. Para ello, se reúne un conjunto de evaluadores expertos en usabilidad, los cuales contrastan y validan individualmente el conjunto de reglas (o comúnmente llamadas heurísticas, o guidelines) escogidas en la interfaz del sistema. Tras las revisiones individuales por cada experto, los resultados son puestos en común y discutidos en una reunión entre los evaluadores y la persona responsable de la evaluación, generando un informe final de la práctica.
               .col.md-6.col-lg-5.mb-4.mb-lg-0
                   img(src="@/assets/curso/Images/tema2/img_6.svg", alt="",)
-
-            ImagenInfografica.color-secundario.mb-5
-                template(v-slot:imagen)
-                  figure
-                    img(src='@/assets/curso/Images/tema2/img_7.svg', alt='', style="width:900px; display:block; margin:0 auto;")
             
-                .tarjeta.color-acento-botones.p-3(x="18%" y="23%" numero="")
-                  p.mb-3 El sistema <i>software</i> siempre debe mantener a todos los usuarios informados sobre lo que ocurre o pasa en la aplicación, a través de una retroalimentación apropiada en un tiempo razonable, de hecho, el tiempo es lo que más cuenta en la actualidad, debido a que los usuarios se han acostumbrado a la inmediatez y, además, los usuarios ya poco leen en la <i>web</i>, dado que han afianzado la acción de escanear.
-                .tarjeta.color-acento-botones.p-3(x="34%" y="23%" numero="")
-                  p.mb-3 El sistema <i>software</i> debe hablar en el lenguaje del usuario, con palabras, frases, coloquios y conceptos familiares para él. Aquí cobra bastante importancia la arquitectura de la información, vista anteriormente. Por eso, utilizar convenciones del mundo real, haciendo que la información aparezca en un orden natural y lógico, este tipo de convenciones y gráficos es lo que técnicamente se llaman metáforas.
-                .tarjeta.color-acento-botones.p-3(x="50%" y="23%" numero="")
-                  p.mb-3 Es normal que, cuando se utiliza por primera vez, los usuarios ingresen a un sitio donde no querían, por lo que necesitan una ‘puerta de emergencia’ para salir del estado indeseado. En ese sentido es imperativo ofrecer soporte para deshacer y rehacer acciones.
-                .tarjeta.color-acento-botones.p-3(x="66%" y="23%" numero="")
-                  p.mb-3 No se debe colocar en juicios a los usuarios, ni ponerlos en escenarios de dudas si las diversas palabras, situaciones o acciones significan la misma cosa. Por lo tanto, se deben seguir las normas y convenciones de la plataforma sobre la que está implementado el sistema.
-                .tarjeta.color-acento-botones.p-3(x="82%" y="23%" numero="")
-                  p.mb-3 Es necesario tener la cultura de la proactividad, más que ser reactivos a incidentes. Esta reflexión recae sobre que antes que diseñar buenos mensajes o notificaciones de error, es mejor evitar que el problema ocurra.
-                .tarjeta.color-acento-botones.p-3(x="18%" y="61%" numero="")
-                  p.mb-3 Es importante entender que menos es más, debido a que el usuario necesita enfocarse en lo que debe hacer para alcanzar sus objetivos, y así se minimiza la carga de memoria del usuario, haciendo que los objetos de interacción, las acciones y las opciones estén visibles. De esta forma, se evitará que el usuario tenga que recordar la información de una parte del diálogo a otra.
-                .tarjeta.color-acento-botones.p-3(x="34%" y="61%" numero="")
-                  p.mb-3 La personalización de un sistema es crucial para su éxito. Esto permitirá adaptarse a diversas condiciones de los usuarios. Por ejemplo, los aceleradores, no vistos por el usuario principiante, pero sí por el usuario experto, lo que le permite una mejor interacción con el sistema, así que el sistema podrá adaptarse a los distintos tipos de usuarios. Es crucial que el sistema permita personalizar acciones frecuentes.
-                .tarjeta.color-acento-botones.p-3(x="50%" y="61%" numero="")
-                  p.mb-3 Los diálogos, alertas o notificaciones no deben contener información irrelevante, como se ha indicado anteriormente. Se debe propiciar que el usuario alcance su objetivo. Se hace claridad que, cada vez que adicionemos alguna información, sea un diálogo o notificación, va a competir con la información importante, disminuyendo la atención y visibilidad relativa.
-                .tarjeta.color-acento-botones.p-3(x="66%" y="61%" numero="")
-                  p.mb-3 Los mensajes de error, alertas o notificaciones deben estar expresados en lenguaje sencillo (sin códigos), indicando de manera precisa y rápida el problema y siempre sugiriendo una solución.
-                .tarjeta.color-acento-botones.p-3(x="82%" y="61%" numero="")
-                  p.mb-3 Aunque es mejor que se pueda usar el sistema sin documentación, es necesario proveer al usuario de ayuda y documentación. Esta tiene que ser fácil de buscar, centrada en las tareas del usuario, con información de las etapas a realizar y que no sea muy extensa.
+            .row.mb-5.justify-content-center
+              .col-lg-12
+                ImagenInfografica.color-secundario.mb-5
+                    template(v-slot:imagen)
+                      figure
+                        img(src='@/assets/curso/Images/tema2/img_7.svg', alt='')
+                
+                    .tarjeta.color-acento-botones.p-3(x="16%" y="23%" numero="")
+                      p.mb-3 El sistema <i>software</i> siempre debe mantener a todos los usuarios informados sobre lo que ocurre o pasa en la aplicación, a través de una retroalimentación apropiada en un tiempo razonable, de hecho, el tiempo es lo que más cuenta en la actualidad, debido a que los usuarios se han acostumbrado a la inmediatez y, además, los usuarios ya poco leen en la <i>web</i>, dado que han afianzado la acción de escanear.
+                    .tarjeta.color-acento-botones.p-3(x="33%" y="23%" numero="")
+                      p.mb-3 El sistema <i>software</i> debe hablar en el lenguaje del usuario, con palabras, frases, coloquios y conceptos familiares para él. Aquí cobra bastante importancia la arquitectura de la información, vista anteriormente. Por eso, utilizar convenciones del mundo real, haciendo que la información aparezca en un orden natural y lógico, este tipo de convenciones y gráficos es lo que técnicamente se llaman metáforas.
+                    .tarjeta.color-acento-botones.p-3(x="50%" y="23%" numero="")
+                      p.mb-3 Es normal que, cuando se utiliza por primera vez, los usuarios ingresen a un sitio donde no querían, por lo que necesitan una ‘puerta de emergencia’ para salir del estado indeseado. En ese sentido es imperativo ofrecer soporte para deshacer y rehacer acciones.
+                    .tarjeta.color-acento-botones.p-3(x="67%" y="23%" numero="")
+                      p.mb-3 No se debe colocar en juicios a los usuarios, ni ponerlos en escenarios de dudas si las diversas palabras, situaciones o acciones significan la misma cosa. Por lo tanto, se deben seguir las normas y convenciones de la plataforma sobre la que está implementado el sistema.
+                    .tarjeta.color-acento-botones.p-3(x="84%" y="23%" numero="")
+                      p.mb-3 Es necesario tener la cultura de la proactividad, más que ser reactivos a incidentes. Esta reflexión recae sobre que antes que diseñar buenos mensajes o notificaciones de error, es mejor evitar que el problema ocurra.
+                    .tarjeta.color-acento-botones.p-3(x="16%" y="61%" numero="")
+                      p.mb-3 Es importante entender que menos es más, debido a que el usuario necesita enfocarse en lo que debe hacer para alcanzar sus objetivos, y así se minimiza la carga de memoria del usuario, haciendo que los objetos de interacción, las acciones y las opciones estén visibles. De esta forma, se evitará que el usuario tenga que recordar la información de una parte del diálogo a otra.
+                    .tarjeta.color-acento-botones.p-3(x="33%" y="61%" numero="")
+                      p.mb-3 La personalización de un sistema es crucial para su éxito. Esto permitirá adaptarse a diversas condiciones de los usuarios. Por ejemplo, los aceleradores, no vistos por el usuario principiante, pero sí por el usuario experto, lo que le permite una mejor interacción con el sistema, así que el sistema podrá adaptarse a los distintos tipos de usuarios. Es crucial que el sistema permita personalizar acciones frecuentes.
+                    .tarjeta.color-acento-botones.p-3(x="50%" y="61%" numero="")
+                      p.mb-3 Los diálogos, alertas o notificaciones no deben contener información irrelevante, como se ha indicado anteriormente. Se debe propiciar que el usuario alcance su objetivo. Se hace claridad que, cada vez que adicionemos alguna información, sea un diálogo o notificación, va a competir con la información importante, disminuyendo la atención y visibilidad relativa.
+                    .tarjeta.color-acento-botones.p-3(x="67%" y="61%" numero="")
+                      p.mb-3 Los mensajes de error, alertas o notificaciones deben estar expresados en lenguaje sencillo (sin códigos), indicando de manera precisa y rápida el problema y siempre sugiriendo una solución.
+                    .tarjeta.color-acento-botones.p-3(x="84%" y="61%" numero="")
+                      p.mb-3 Aunque es mejor que se pueda usar el sistema sin documentación, es necesario proveer al usuario de ayuda y documentación. Esta tiene que ser fácil de buscar, centrada en las tareas del usuario, con información de las etapas a realizar y que no sea muy extensa.
 
 
             .jumbotron-3.p-5.mb-5

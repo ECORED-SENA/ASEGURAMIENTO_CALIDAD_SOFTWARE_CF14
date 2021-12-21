@@ -118,25 +118,27 @@
           p.mb-0 Una buena Arquitectura de la Información, por tanto, ayudará a encontrar la información que se está buscando, descartando el contenido que no está relacionado con la misma, mediante una toma de decisiones que requiera el menor tiempo posible.
 
     p.mb-5 La dificultad, no obstante, radica en una serie de características que se debe tener en cuenta sobre los usuarios y contenidos:
-
-    ImagenInfografica.color-secundario.mb-5
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/Images/tema1/img_8.svg', alt='', style="width:830px; display:block; margin:0 auto;")
     
-        .tarjeta.color-acento-botones.p-3(x="22%" y="5%" numero="")
-          p.mb-3 No todos tienen las mismas ideas respecto a la agrupación de términos.
-        .tarjeta.color-acento-botones.p-3(x="50%" y="5%" numero="")
-          p.mb-3 Tienen diferentes necesidades y prioridades.
-        .tarjeta.color-acento-botones.p-3(x="78%" y="5%" numero="")
-          p.mb-3 Tienen diferentes grados de conocimiento de los términos.
-          p Los usuarios tienen diferente grado de conocimientos de la información, son más o menos expertos en referencia a un tema.
-        .tarjeta.color-acento-botones.p-3(x="22%" y="65%" numero="")
-          p.mb-3 La forma de agrupar la información no es única. Hay múltiples opciones.
-        .tarjeta.color-acento-botones.p-3(x="50%" y="65%" numero="")
-          p.mb-3 Existencia de términos ambiguos, con diferentes significados para unos u otros usuarios.
-        .tarjeta.color-acento-botones.p-3(x="78%" y="65%" numero="")
-          p.mb-3 Los usuarios tienen unas costumbres o mecanismos de interpretación diferentes. 
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        ImagenInfografica.color-secundario.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/Images/tema1/img_8.svg', alt='')
+        
+            .tarjeta.color-acento-botones.p-3(x="15%" y="5%" numero="")
+              p.mb-3 No todos tienen las mismas ideas respecto a la agrupación de términos.
+            .tarjeta.color-acento-botones.p-3(x="50%" y="5%" numero="")
+              p.mb-3 Tienen diferentes necesidades y prioridades.
+            .tarjeta.color-acento-botones.p-3(x="85%" y="5%" numero="")
+              p.mb-3 Tienen diferentes grados de conocimiento de los términos.
+              p Los usuarios tienen diferente grado de conocimientos de la información, son más o menos expertos en referencia a un tema.
+            .tarjeta.color-acento-botones.p-3(x="15%" y="65%" numero="")
+              p.mb-3 La forma de agrupar la información no es única. Hay múltiples opciones.
+            .tarjeta.color-acento-botones.p-3(x="50%" y="65%" numero="")
+              p.mb-3 Existencia de términos ambiguos, con diferentes significados para unos u otros usuarios.
+            .tarjeta.color-acento-botones.p-3(x="85%" y="65%" numero="")
+              p.mb-3 Los usuarios tienen unas costumbres o mecanismos de interpretación diferentes. 
 
     p.mb-3 A la hora de realizar una Arquitectura de la Información, se debe, por tanto, realizar una investigación previa con usuarios. Siempre se debe tener presente que no todo el mundo puede tener conocimientos de los temas que se exponen, con los términos que comúnmente se utiliza, ni que entienden las cosas a su manera, o ven las cosas desde su mismo punto de vista.
  
