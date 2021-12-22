@@ -33,7 +33,7 @@
             .col-auto
               img.mx-3(src='@/assets/curso/Images/tema1/ico_11.svg' alt="", style="width:40px; display:block; margin:auto 0;")
             .col
-              p.mb-0 ¿Cuántas veces ha entrado en una página web buscando un teléfono de contacto y ha sido incapaz de localizarlo? 
+              p.mb-0 ¿Cuántas veces ha entrado en una página <em>web</em> buscando un teléfono de contacto y ha sido incapaz de localizarlo? 
           hr
           .row.align-items-center.mb-3
             .col-auto
@@ -324,7 +324,7 @@
                 h3.mb-3 Agrupe las tarjetas
                 p.mb-3 En seguida, se deben establecer relaciones entre los ítems o tópicos inventariados, para decidir cuáles se deben agrupar en la arquitectura dentro de las distintas secciones o menús, lo que a nivel técnico se conoce como categorías. Aquí, la clave es descubrir dónde esperan los usuarios encontrar los ítems cuando están navegando, con el fin de llegar a su objetivo deseado.
 
-                p.mb-3 La diseñadora Cris Busquets, en su artículo “Arquitectura de la información: qué es y cómo hacerlo”, describe el siguiente ejemplo: “En una tienda <i>online</i>de muebles y productos para el hogar, ¿cómo preferirán los usuarios navegar para encontrar los productos que buscan?… ¿querrán un acceso por tipos de muebles (camas, mesas, sillas, armarios…) …por uso y funciones (descansar, trabajar, cocinar…) … por habitación (dormitorio, salón, despacho, cocina…) … por un buscador… o por todas esas formas? Una buena técnica para contestar a estas preguntas es el Card Sorting, o realizar entrevistas o encuestas a los usuarios para comprender cómo y por qué utilizan ese producto determinado. (Busquets, 2020)
+                p.mb-3 La diseñadora Cris Busquets, en su artículo “Arquitectura de la información: qué es y cómo hacerlo”, describe el siguiente ejemplo: “En una tienda <i>online</i> de muebles y productos para el hogar, ¿cómo preferirán los usuarios navegar para encontrar los productos que buscan?… ¿querrán un acceso por tipos de muebles (camas, mesas, sillas, armarios…) …por uso y funciones (descansar, trabajar, cocinar…) … por habitación (dormitorio, salón, despacho, cocina…) … por un buscador… o por todas esas formas? Una buena técnica para contestar a estas preguntas es el Card Sorting, o realizar entrevistas o encuestas a los usuarios para comprender cómo y por qué utilizan ese producto determinado. (Busquets, 2020)
             .col-lg-6
                 p Esta técnica es muy utilizada hoy en día por expertos en el área del diseño de experiencia de usuario; de igual forma, es también utilizada por <i>testers</i> del área de UX, debido a lo iterativo de la ingeniería de <i>software</i> y a la búsqueda de mejora continua de la aplicación. Se aclara que la técnica de Card Sorting será abordada más adelante en este componente formativo.
             .col-lg-6
@@ -430,7 +430,7 @@
     .row.align-items-center.justify-content-center.mb-5
         .col-lg-5
           h3.mb-3 <i>Card sorting</i>
-          p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de <i>Card Sorting</i> u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de <i>Card Sorting</i> puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de <i>software</i> de clasificación de tarjetas en línea. (Para este caso, se utilizará Optimal Workshop [El enlace se compartirá en el material complementario].) (<i>Assistant Secretary for Public Affairs,</i> 2021).
+          p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de <i>Card Sorting</i> u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de <i>Card Sorting</i> puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de <i>software</i> de clasificación de tarjetas en línea. (Para este caso, se utilizará <em>Optimal Workshop</em> [El enlace se compartirá en el material complementario].) (<i>Assistant Secretary for Public Affairs,</i> 2021).
         .col-lg-5
           img(src='@/assets/curso/Images/tema1/img_23.svg')
 
@@ -468,7 +468,7 @@
           .tarjeta-numerada.color-secundario.p-5
               .tarjeta-numerada__numero
                 .h2 1
-              p  Aplicando el Card Sorting se pueden tener resultados de tipo: 
+              p  Aplicando el <em>Card Sorting</em> se pueden tener resultados de tipo: 
               ul.lista-ul--color
                 li 
                   i.fas.fa-circle.cac
@@ -561,7 +561,7 @@
                       | Funcionalidad.
                     li 
                       i.fas.fa-angle-right
-                      | Interacción (uso de banners, <i>frames</i>, elementos confusos).
+                      | Interacción (uso de banners, <em>frames</em>, elementos confusos).
                     li 
                       i.fas.fa-angle-right
                       | Navegación.
@@ -621,7 +621,7 @@
           .col-lg-5
             figure
               img.mx-5(src='@/assets/curso/Images/tema1/img_31.svg' alt='', style="width:300px; display:block; margin:auto 0;")
-      .py-3.py-md-4.color-tab.color-custom-4(titulo='Usuarios')
+      .py-3.py-md-4.color-tab.color-custom-4(titulo='Esquemas de organización')
         .row.align-items-center.justify-content-center
           .col-lg-10
             h3 Esquemas de organización
@@ -629,7 +629,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-2
             .jumbotron-8.p-4 
-              p.mb-0 <b>Esquemas exactos</b>
+              p.mb-0 <b>Esquemas ambiguos</b>
                 
                 ul.lista-ul
                   li 
@@ -663,7 +663,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/Images/tema1/img_32.svg' alt='')
-      .py-3.py-md-4.color-tab.color-custom-4(titulo='Esquemas de organización')
+      .py-3.py-md-4.color-tab.color-custom-4(titulo='Estructuras de organización')
         .row.align-items-center.justify-content-center
           .col-lg-10
             h3 Estructuras de organización
