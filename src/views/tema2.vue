@@ -139,7 +139,7 @@
             .tarjeta.color-acento-botones.p-3(x="75%" y="81%" numero="")
               p.mb-3 El método del conductor es algo diferente de estos métodos de <i>test</i> vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el <i>test</i>.
             .tarjeta.color-acento-botones.p-3(x="75%" y="89%" numero="")
-              p.mb-3 La técnica conocida como ordenación de tarjetas, o card sorting, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
+              p.mb-3 La técnica conocida como ordenación de tarjetas, o <em>card sorting</em>, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
               p.mb-3 Se trata de una técnica simple -fácil de entender y de aplicar-, barata, rápida y que involucra a los usuarios, que es especialmente indicada cuando disponemos de una serie de ítems que precisan ser catalogados, así como para decidir la estructura organizativa de cualquier sistema de información.
               p Esta técnica tiene demostrada utilidad para desarrollar sitios <i>web</i>, para lo cual está especialmente recomendada. 
 

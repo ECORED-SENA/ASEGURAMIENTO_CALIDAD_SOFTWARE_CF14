@@ -22,28 +22,28 @@
       p.mb-5 La <i>Information Architecture (IA)</i>, o la Arquitectura de la Información (AI), tiene un propósito y unos beneficios de uso, es así como su presencia va más allá de los entornos no <i>web.</i> En ese sentido, se inicia mediante la generación de una serie de preguntas, para así entender de manera epistemológica el sentido de este concepto:
 
       .row.align-items-center.mb-5.sp6
-        .col-lg-6
-            .row.align-items-center.mb-3
-              .col-auto
-                img.mx-3(src='@/assets/curso/Images/tema1/ico_10.svg' alt="", style="width:40px; display:block; margin:auto 0;")
-              .col
-                p.mb-0 ¿Cuántas veces ha tenido que preguntar en una estación de ferrocarriles la ubicación de una determinada vía? 
+        .col-lg-6.mb-4.mb-lg-0.py-3
+          .row.align-items-center.mb-3
+            .col-auto
+              img.mx-3(src='@/assets/curso/Images/tema1/ico_10.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 ¿Cuántas veces ha tenido que preguntar en una estación de ferrocarriles la ubicación de una determinada vía? 
 
-            hr
-            .row.align-items-center.mb-3
-              .col-auto
-                img.mx-3(src='@/assets/curso/Images/tema1/ico_11.svg' alt="", style="width:40px; display:block; margin:auto 0;")
-              .col
-                p.mb-0 ¿Cuántas veces ha entrado en una página <em>web</em> buscando un teléfono de contacto y ha sido incapaz de localizarlo? 
-            hr
-            .row.align-items-center.mb-3
-              .col-auto
-                img.mx-3(src='@/assets/curso/Images/tema1/ico_12.svg' alt="", style="width:40px; display:block; margin:auto 0;")
-              .col
-                p.mb-0 ¿En alguna ocasión se ha perdido por los pasillos de un hospital sin encontrar la consulta que buscaba?
-        .col-lg-6
+          hr
+          .row.align-items-center.mb-3
+            .col-auto
+              img.mx-3(src='@/assets/curso/Images/tema1/ico_11.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 ¿Cuántas veces ha entrado en una página <em>web</em> buscando un teléfono de contacto y ha sido incapaz de localizarlo? 
+          hr
+          .row.align-items-center
+            .col-auto
+              img.mx-3(src='@/assets/curso/Images/tema1/ico_12.svg' alt="", style="width:40px; display:block; margin:auto 0;")
+            .col
+              p.mb-0 ¿En alguna ocasión se ha perdido por los pasillos de un hospital sin encontrar la consulta que buscaba?
+        .col-lg-6.p-0
           figure
-            img.mx-3(src="@/assets/curso/Images/tema1/img_2.png" alt="", style="width:700px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/Images/tema1/img_2.png")
 
       
       p.mb-5 Para resolver este tipo de problemas, y otros más, es que surge la Arquitectura de la Información (AI). La AI lleva tres décadas tratando de resolver y mejorar estos problemas.  El <em>Information Architecture Institute</em> (https://www.iainstitute.org) la define como: 
@@ -326,9 +326,9 @@
                   h3.mb-3 Agrupe las tarjetas
                   p.mb-3 En seguida, se deben establecer relaciones entre los ítems o tópicos inventariados, para decidir cuáles se deben agrupar en la arquitectura dentro de las distintas secciones o menús, lo que a nivel técnico se conoce como categorías. Aquí, la clave es descubrir dónde esperan los usuarios encontrar los ítems cuando están navegando, con el fin de llegar a su objetivo deseado.
 
-                  p.mb-3 La diseñadora Cris Busquets, en su artículo “Arquitectura de la información: qué es y cómo hacerlo”, describe el siguiente ejemplo: “En una tienda <i>online</i> de muebles y productos para el hogar, ¿cómo preferirán los usuarios navegar para encontrar los productos que buscan?… ¿querrán un acceso por tipos de muebles (camas, mesas, sillas, armarios…) …por uso y funciones (descansar, trabajar, cocinar…) … por habitación (dormitorio, salón, despacho, cocina…) … por un buscador… o por todas esas formas? Una buena técnica para contestar a estas preguntas es el Card Sorting, o realizar entrevistas o encuestas a los usuarios para comprender cómo y por qué utilizan ese producto determinado. (Busquets, 2020)
+                  p.mb-3 La diseñadora Cris Busquets, en su artículo “Arquitectura de la información: qué es y cómo hacerlo”, describe el siguiente ejemplo: “En una tienda <i>online</i> de muebles y productos para el hogar, ¿cómo preferirán los usuarios navegar para encontrar los productos que buscan?… ¿querrán un acceso por tipos de muebles (camas, mesas, sillas, armarios…) …por uso y funciones (descansar, trabajar, cocinar…) … por habitación (dormitorio, salón, despacho, cocina…) … por un buscador… o por todas esas formas? Una buena técnica para contestar a estas preguntas es el <em>Card Sorting</em>, o realizar entrevistas o encuestas a los usuarios para comprender cómo y por qué utilizan ese producto determinado. (Busquets, 2020)
               .col-lg-6
-                  p Esta técnica es muy utilizada hoy en día por expertos en el área del diseño de experiencia de usuario; de igual forma, es también utilizada por <i>testers</i> del área de UX, debido a lo iterativo de la ingeniería de <i>software</i> y a la búsqueda de mejora continua de la aplicación. Se aclara que la técnica de Card Sorting será abordada más adelante en este componente formativo.
+                  p Esta técnica es muy utilizada hoy en día por expertos en el área del diseño de experiencia de usuario; de igual forma, es también utilizada por <i>testers</i> del área de UX, debido a lo iterativo de la ingeniería de <i>software</i> y a la búsqueda de mejora continua de la aplicación. Se aclara que la técnica de <em>Card Sorting</em> será abordada más adelante en este componente formativo.
               .col-lg-6
                   img(src="@/assets/curso/Images/tema1/img_17.svg", alt= "")
             .row.align-items-center.justify-content-center
@@ -350,7 +350,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p Aprende a Crear un CARD SORTING REMOTO
+                p Aprende a Crear un <em>CARD SORTING</em> REMOTO
             br
             a.anexo.mb-4.mb-lg-0(href="https://www.xmind.net/" target="_blank")
               .anexo__icono
@@ -438,7 +438,7 @@
 
       .row.justify-content-center.mb-5
           .col-lg-10
-            h3.mb-3 Beneficios del Card Sorting
+            h3.mb-3 Beneficios del <em>Card Sorting</em>
             p Ayuda a comprender las expectativas de los usuarios y los temas de su interés. Esta información del grupo de usuarios reclutados puede apoyar al equipo desarrollador a:
           .col-lg-6
             hr
@@ -499,7 +499,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p Aprende a crear un CARD SORTING REMOTO
+                  p Aprende a crear un <em>CARD SORTING</em> REMOTO
 
       p.mb-5 De acuerdo con lo visto hasta el momento, en relación al análisis de resultados, se pueden presentar estos con alguna de las siguientes técnicas:
 
@@ -518,7 +518,7 @@
       .jumbotron-2.p-5.mb-5
         .row.justify-content-center.mb-5
           .col-lg-10.mb-3
-            p.mb-3 <b>Dendrograma:</b> con el resultado del dendrograma, se ven de igual forma las agrupaciones, aquí se demuestra la responsabilidad del equipo de desarrollo en tomar la decisión si en el diseño de la interfaz se dejan 2, 3 o 4 categorías, todo está en la investigación que se haya hecho con los usuarios. De ahí la importancia y el protagonismo del evaluador o <i>tester</i> de interfaces de aplicaciones <i>software</i>, porque tendrá la habilidad de conocer si la arquitectura está bien hecha o no, además tendrá rigor de decisión con base en estas técnicas y conceptos vistos. Adicionalmente, se aclara que en el material complementario se ve el resultado del dendrograma con la herramienta Optimal Workshop, cuyo nombre es práctica de Card Sorting.
+            p.mb-3 <b>Dendrograma:</b> con el resultado del dendrograma, se ven de igual forma las agrupaciones, aquí se demuestra la responsabilidad del equipo de desarrollo en tomar la decisión si en el diseño de la interfaz se dejan 2, 3 o 4 categorías, todo está en la investigación que se haya hecho con los usuarios. De ahí la importancia y el protagonismo del evaluador o <i>tester</i> de interfaces de aplicaciones <i>software</i>, porque tendrá la habilidad de conocer si la arquitectura está bien hecha o no, además tendrá rigor de decisión con base en estas técnicas y conceptos vistos. Adicionalmente, se aclara que en el material complementario se ve el resultado del dendrograma con la herramienta Optimal Workshop, cuyo nombre es práctica de <em>Card Sorting</em>.
             .titulo-sexto.color-acento-contenido
               h5 Figura 4
               br
@@ -541,36 +541,36 @@
       
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             div(titulo="Aspectos negativos generales")
-            .row.align-items-center.justify-content-center.p-4
-                .col-lg-6
-                  p.mb-3 Entre los aspectos denominados negativos en la experiencia con páginas web, están:
+              .row.align-items-center.justify-content-center.p-4
+                  .col-lg-6
+                    p.mb-3 Entre los aspectos denominados negativos en la experiencia con páginas web, están:
 
-                    ul.lista-ul
-                      li 
-                        i.fas.fa-angle-right
-                        | Velocidad.
-                      li 
-                        i.fas.fa-angle-right
-                        | Ancho de banda.
-                      li 
-                        i.fas.fa-angle-right
-                        | Efectividad (no hace lo que tiene que hacer en los tiempos más esperados).
-                      li 
-                        i.fas.fa-angle-right
-                        | Estética.
-                      li 
-                        i.fas.fa-angle-right
-                        | Funcionalidad.
-                      li 
-                        i.fas.fa-angle-right
-                        | Interacción (uso de banners, <em>frames</em>, elementos confusos).
-                      li 
-                        i.fas.fa-angle-right
-                        | Navegación.
+                      ul.lista-ul
+                        li 
+                          i.fas.fa-angle-right
+                          | Velocidad.
+                        li 
+                          i.fas.fa-angle-right
+                          | Ancho de banda.
+                        li 
+                          i.fas.fa-angle-right
+                          | Efectividad (no hace lo que tiene que hacer en los tiempos más esperados).
+                        li 
+                          i.fas.fa-angle-right
+                          | Estética.
+                        li 
+                          i.fas.fa-angle-right
+                          | Funcionalidad.
+                        li 
+                          i.fas.fa-angle-right
+                          p.mb-0 Interacción (uso de banners, <em>frames</em>, elementos confusos).
+                        li 
+                          i.fas.fa-angle-right
+                          | Navegación.
 
-                .col-lg-6
-                  figure  
-                    img(src='@/assets/curso/Images/tema1/img_28.svg' alt="", style="width:300px; display:block; margin:auto 0;")
+                  .col-lg-6
+                    figure  
+                      img(src='@/assets/curso/Images/tema1/img_28.svg' alt="", style="width:300px; display:block; margin:auto 0;")
 
             div(titulo="Principales hallazgos negativos")
               .row.align-items-center.justify-content-center.p-4

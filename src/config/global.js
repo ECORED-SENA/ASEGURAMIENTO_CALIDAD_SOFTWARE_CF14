@@ -221,7 +221,7 @@ export default {
     },
     {
       texto:
-        'Artificial Bridge. (2020). Aprende a Crear un CARD SORTING REMOTO fácilmente y GRATIS con Optimal Workshop [Video]. YouTube. ',
+        'Artificial Bridge. (2020). Aprende a Crear un <em>CARD SORTING</em> REMOTO fácilmente y GRATIS con Optimal Workshop [Video]. YouTube. ',
       tipo: 'Video Youtube',
       link: 'https://www.youtube.com/watch?v=kuWQCxB5r_k',
     },

@@ -36,7 +36,7 @@
               img(src="@/assets/curso/Images/tema3/img_2.svg", alt="")
     
     .col-lg-10.mx-auto.mb-5
-      LineaTiempoD.color-secundario
+      LineaTiempoD.color-secundario.especial
         .p-4(titulo='Análisis de investigación' numero='1')
           .row.align-items-center
             .col-lg-8
