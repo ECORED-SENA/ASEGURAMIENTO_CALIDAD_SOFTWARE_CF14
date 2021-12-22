@@ -45,7 +45,7 @@
           img.mx-3(src="@/assets/curso/Images/tema1/img_2.png" alt="", style="width:700px; display:block; margin:0 auto;")
 
      
-    p.mb-5 Para resolver este tipo de problemas, y otros más, es que surge la Arquitectura de la Información (AI). La AI lleva tres décadas tratando de resolver y mejorar estos problemas.  El Information Architecture Institute (https://www.iainstitute.org) la define como: 
+    p.mb-5 Para resolver este tipo de problemas, y otros más, es que surge la Arquitectura de la Información (AI). La AI lleva tres décadas tratando de resolver y mejorar estos problemas.  El <em>Information Architecture Institute</em> (https://www.iainstitute.org) la define como: 
 
     .titulo-quinto.color-acento-contenido
       h4 Qué es la Arquitectura de la Información
