@@ -203,13 +203,13 @@ export default {
         'Es una referencia a cómo un usuario experimenta e interactúa con un producto o servicio, un concepto más que un proceso.',
     },
     {
-      termino: 'Mapping',
+      termino: '<i>Mapping</i>',
       significado: 'Herramienta para realizar mapas conceptuales.',
     },
     {
-      termino: 'Página web',
+      termino: 'Página <i>web</i>',
       significado:
-        'Es un documento que se puede mostrar en un navegador web como Firefox, Google Chrome, Microsoft Internet Explorer o Edge, o Safari de Apple,',
+        'Es un documento que se puede mostrar en un navegador <i>web</i> como Firefox, Google Chrome, Microsoft Internet Explorer o Edge, o Safari de Apple,',
     },
   ],
   complementario: [
@@ -240,7 +240,7 @@ export default {
     },
     {
       texto:
-        'Nielsen, J. (2020). 10 Usability Heuristics for User Interface Design. Nielsen Norman Group. ',
+        'Nielsen, J. (2020). 10 <em>Usability Heuristics for User Interface Design</em>. Nielsen Norman Group. ',
       tipo: 'Artículo',
       link: 'https://www.nngroup.com/articles/ten-usability-heuristics/ ',
     },
@@ -252,7 +252,7 @@ export default {
         'http://mpiua.invid.udl.cat/wp-content/uploads/2014/07/Comparativa-M%C3%A9todos-Evaluaci%C3%B3n-Usabilidad.png ',
     },
     {
-      texto: 'Negru, S. (2020). Usability Test Plan Template. ',
+      texto: 'Negru, S. (2020). <em>Usability Test Plan Template.</em> ',
       tipo: 'Archivo',
       link: 'https://profs.info.uaic.ro/~stefan.negru/usability',
     },
