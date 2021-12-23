@@ -503,29 +503,26 @@
 
       p.mb-5 De acuerdo con lo visto hasta el momento, en relación al análisis de resultados, se pueden presentar estos con alguna de las siguientes técnicas:
 
-      .jumbotron-2.p-5.mb-5
-        p <b> Matriz  de concurrencia:</b> con el resultado de la matriz de concurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
-      .jumbotron-2.p-5.mb-5
-        .row.justify-content-center.mb-5
-          .col-lg-10.mb-3
+      .jumbotron-2.p-4.p-lg-5.mb-5
+        p.mb-5 <b> Matriz  de concurrencia:</b> con el resultado de la matriz de concurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
+
+        .row.justify-content-center
+          .col-lg-10
             .titulo-sexto.color-acento-contenido
               h5 Figura 3 
               br
               span <i>Ejemplo de matriz de concurrencia</i>
-          .row.align-items-center.justify-content-center.mb-3
-            .col-auto
-              img(src='@/assets/curso/Images/tema1/img_26.svg' alt="", style="width:800px; display:block; margin:auto 0;")
-      .jumbotron-2.p-5.mb-5
-        .row.justify-content-center.mb-5
-          .col-lg-10.mb-3
-            p.mb-3 <b>Dendrograma:</b> con el resultado del dendrograma, se ven de igual forma las agrupaciones, aquí se demuestra la responsabilidad del equipo de desarrollo en tomar la decisión si en el diseño de la interfaz se dejan 2, 3 o 4 categorías, todo está en la investigación que se haya hecho con los usuarios. De ahí la importancia y el protagonismo del evaluador o <i>tester</i> de interfaces de aplicaciones <i>software</i>, porque tendrá la habilidad de conocer si la arquitectura está bien hecha o no, además tendrá rigor de decisión con base en estas técnicas y conceptos vistos. Adicionalmente, se aclara que en el material complementario se ve el resultado del dendrograma con la herramienta Optimal Workshop, cuyo nombre es práctica de <em>Card Sorting</em>.
+
+            img(src='@/assets/curso/Images/tema1/img_26.svg' alt="")
+      .jumbotron-2.p-4.p-lg-5.mb-5
+        p.mb-5 <b>Dendrograma:</b> con el resultado del dendrograma, se ven de igual forma las agrupaciones, aquí se demuestra la responsabilidad del equipo de desarrollo en tomar la decisión si en el diseño de la interfaz se dejan 2, 3 o 4 categorías, todo está en la investigación que se haya hecho con los usuarios. De ahí la importancia y el protagonismo del evaluador o <i>tester</i> de interfaces de aplicaciones <i>software</i>, porque tendrá la habilidad de conocer si la arquitectura está bien hecha o no, además tendrá rigor de decisión con base en estas técnicas y conceptos vistos. Adicionalmente, se aclara que en el material complementario se ve el resultado del dendrograma con la herramienta Optimal Workshop, cuyo nombre es práctica de <em>Card Sorting</em>.
+        .row.justify-content-center
+          .col-lg-10
             .titulo-sexto.color-acento-contenido
               h5 Figura 4
               br
               span <i>Ejemplo de dendrograma</i>
-          .row.align-items-center.justify-content-center.mb-3
-            .col-auto
-              img(src='@/assets/curso/Images/tema1/img_27.svg' alt="", style="width:800px; display:block; margin:auto 0;")
+            img(src='@/assets/curso/Images/tema1/img_27.svg' alt="")
 
       Separador 
     
