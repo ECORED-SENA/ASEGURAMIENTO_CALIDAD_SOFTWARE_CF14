@@ -128,19 +128,19 @@
                 figure
                   img(src='@/assets/curso/Images/tema1/img_8.svg', alt='')
           
-              .tarjeta.color-acento-botones.p-3(x="15%" y="5%" numero="")
-                p.mb-3 No todos tienen las mismas ideas respecto a la agrupación de términos.
-              .tarjeta.color-acento-botones.p-3(x="50%" y="5%" numero="")
-                p.mb-3 Tienen diferentes necesidades y prioridades.
-              .tarjeta.color-acento-botones.p-3(x="85%" y="5%" numero="")
-                p.mb-3 Tienen diferentes grados de conocimiento de los términos.
-                p Los usuarios tienen diferente grado de conocimientos de la información, son más o menos expertos en referencia a un tema.
-              .tarjeta.color-acento-botones.p-3(x="15%" y="65%" numero="")
-                p.mb-3 La forma de agrupar la información no es única. Hay múltiples opciones.
-              .tarjeta.color-acento-botones.p-3(x="50%" y="65%" numero="")
-                p.mb-3 Existencia de términos ambiguos, con diferentes significados para unos u otros usuarios.
-              .tarjeta.color-acento-botones.p-3(x="85%" y="65%" numero="")
-                p.mb-3 Los usuarios tienen unas costumbres o mecanismos de interpretación diferentes. 
+              .tarjeta.color-acento-botones.p-3(x="14.9%" y="5%" numero="")
+                p.mb-0 No todos tienen las mismas ideas respecto a la agrupación de términos.
+              .tarjeta.color-acento-botones.p-3(x="49.6%" y="5%" numero="")
+                p.mb-0 Tienen diferentes necesidades y prioridades.
+              .tarjeta.color-acento-botones.p-3(x="85.2%" y="5%" numero="")
+                p Tienen diferentes grados de conocimiento de los términos.
+                p.mb-0 Los usuarios tienen diferente grado de conocimientos de la información, son más o menos expertos en referencia a un tema.
+              .tarjeta.color-acento-botones.p-3(x="15%" y="65.4%" numero="")
+                p.mb-0 La forma de agrupar la información no es única. Hay múltiples opciones.
+              .tarjeta.color-acento-botones.p-3(x="49.6%" y="65.4%" numero="")
+                p.mb-0 Existencia de términos ambiguos, con diferentes significados para unos u otros usuarios.
+              .tarjeta.color-acento-botones.p-3(x="85.2%" y="65.4%" numero="")
+                p.mb-0 Los usuarios tienen unas costumbres o mecanismos de interpretación diferentes. 
 
       p.mb-3 A la hora de realizar una Arquitectura de la Información, se debe, por tanto, realizar una investigación previa con usuarios. Siempre se debe tener presente que no todo el mundo puede tener conocimientos de los temas que se exponen, con los términos que comúnmente se utiliza, ni que entienden las cosas a su manera, o ven las cosas desde su mismo punto de vista.
   

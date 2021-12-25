@@ -14,7 +14,7 @@
    
     #t_2_1.titulo-segundo
       h2 2.1 Introducción y conceptos básicos
-    p.mb-5 A Una vez revisado y comprendido de manera precisa y sucinta los conceptos y técnicas que engloban en gran medida la disciplina de la usabilidad, es posible ahora entrar a uno de los más interesantes mecanismos y apartados de este componente, que es la evaluación.
+    p.mb-5 Una vez revisado y comprendido de manera precisa y sucinta los conceptos y técnicas que engloban en gran medida la disciplina de la usabilidad, es posible ahora entrar a uno de los más interesantes mecanismos y apartados de este componente, que es la evaluación.
     
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.verticalLine
@@ -105,43 +105,45 @@
               figure
                 img(src='@/assets/curso/Images/tema2/img_5.svg', alt='')
 
-            .tarjeta.color-acento-botones.p-3(x="7%" y="65%" numero="")
-              p.mb-3 Es una de las formas más económicas de encontrar errores en la <i>web</i>, aplicación, o cualquier sistema que interactúe con el usuario.
-            .tarjeta.color-acento-botones.p-3(x="7%" y="73%" numero="")
-              p.mb-3 Un grupo de evaluadores examina la interfaz, realizando un conjunto de tareas y evaluando su comprensión y facilidad de aprendizaje.
-              p La interfaz está usualmente en forma de prototipo. Es una técnica idónea en la etapa de diseño.
-            .tarjeta.color-acento-botones.p-3(x="7%" y="81%" numero="")
-              p.mb-3 Son reuniones multidisciplinares, en las que diseñadores, desarrolladores, usuarios y expertos en usabilidad asumen el rol de usuarios del sistema.
-            .tarjeta.color-acento-botones.p-3(x="7%" y="89%" numero="")
-              p.mb-3 Este método aporta una primera aproximación conocida de implicar a usuarios en los tradicionales recorridos cognitivos. Pues, conocedores de las ventajas de estos recorridos, se hace consistente evidenciar los principales problemas que puedan presentarse y, a la vez, detectados por los usuarios.
-            .tarjeta.color-acento-botones.p-3(x="7%" y="96%" numero="")
-              p.mb-3 Se realiza por medio de un experto en un estándar de la interfaz, que puede ser de facto o de iure. El experto realiza una inspección minuciosa a la interfaz, para comprobar que en todo momento y de manera global se cumplen los puntos definidos en el estándar.
-            .tarjeta.color-acento-botones.p-3(x="41%" y="66%" numero="")
-              p.mb-3 La investigación de campo, generalmente, implica una combinación del método de observación de participante, entrevistas y análisis. Las grandes corporaciones pueden tener su propio departamento de marketing o investigación, para recopilar datos de fuentes primarias. Sin embargo, para la mayor parte de la investigación de campo, se contrata a terceros que realizan encuestas, grupos focales y entrevistas a nombre de la compañía.
-            .tarjeta.color-acento-botones.p-3(x="41%" y="73%" numero="")
-              p.mb-3 El <i>Focus Group</i> o Grupo de Discusión Dirigido es una técnica de recogida de datos, donde se reúnen de 6 a 9 personas (generalmente usuarios y también implicados) para discutir aspectos relacionados con el sistema. En ellos, un evaluador experto en usabilidad y/o accesibilidad (dependiendo del objetivo de la evaluación) realiza la función de moderador. Este preparará previamente la lista de aspectos a discutir y se encargará de recoger la información que necesita de la discusión.
-              p Esto permite capturar reacciones espontáneas e ideas de los usuarios que evolucionan en el proceso dinámico del grupo
-            .tarjeta.color-acento-botones.p-3(x="41%" y="82%" numero="")
-              p.mb-3 Entrevistar a los usuarios respecto de su experiencia en un sistema interactivo resulta una manera directa y una técnica potente de adquirir información. Pueden ser estructuradas o abiertas (o desestructuradas), en las primeras, el evaluador es más rígido en procurar el buen seguimiento del guión preestablecido, mientras que en las abiertas, se da espacio a los contertulios a expresarse con más libertad.
-              p Las entrevistas pueden ser efectivas para una evaluación de alto nivel, particularmente para extraer información sobre las preferencias del usuario, impresiones y actitudes. Pueden ayudar a encontrar problemas no previstos en el diseño.
-            .tarjeta.color-acento-botones.p-3(x="41%" y="89%" numero="")
-              p.mb-3 En el ámbito de la evaluación de sistemas interactivos, hablamos de cuestionarios para referirnos a listas de preguntas que el evaluador distribuye entre usuarios y/o implicados, para que estos nos las devuelvan con sus respuestas y, así, poder extraer conclusiones. El cuestionario normalmente se distribuye en formato escrito y las preguntas plantean aspectos relacionados con el sistema o aplicación concreta.
-              p Así pues, la base del cuestionario es la recolección de información a partir de respuestas contestadas por los usuarios y/o los implicados.
-            .tarjeta.color-acento-botones.p-3(x="41%" y="97%" numero="")
-              p.mb-3 La técnica grabación de uso, más conocida como análisis de logs o simplemente <i>logging</i>, se basa en «grabar» o «recoger» todas las actividades realizadas por el usuario con el sistema para su posterior análisis. Para ello, se precisa de una aplicación secundaria que realice automáticamente esta labor y que pase, además, totalmente inadvertida para el usuario.
-              p El <i>logging</i>implica disponer en el ordenador de una aplicación del sistema que recoja automáticamente estadísticas sobre el uso detallado del sistema. Es útil porque muestra cómo los usuarios realizan su trabajo real y porque es fácil recoger automáticamente datos de una gran cantidad de usuarios que trabajan bajo diversas circunstancias.
-            .tarjeta.color-acento-botones.p-3(x="75%" y="65%" numero="")
-              p.mb-3 En este método de evaluación, conocido como <i>«thinking aloud»</i>, descrito por Nielsen, se pide a los usuarios, de forma individual, que expresen en voz alta y libremente sus pensamientos, sentimientos y opiniones sobre cualquier aspecto (diseño, funcionalidad, etc.), mientras que interactúan con el sistema o un prototipo del mismo.
-              p Resulta ser un método altamente eficaz para capturar aspectos relacionados con las actividades cognitivas de los usuarios potenciales del sistema evaluado.
+            .tarjeta.color-acento-botones.p-3(x="7.4%" y="65.2%" numero="")
+              p.text-small.mb-0 Es una de las formas más económicas de encontrar errores en la <i>web</i>, aplicación, o cualquier sistema que interactúe con el usuario.
+            .tarjeta.color-acento-botones.p-3(x="7.4%" y="73.1%" numero="")
+              p.text-small Un grupo de evaluadores examina la interfaz, realizando un conjunto de tareas y evaluando su comprensión y facilidad de aprendizaje.
+              p.text-small.mb-0 La interfaz está usualmente en forma de prototipo. Es una técnica idónea en la etapa de diseño.
+            .tarjeta.color-acento-botones.p-3(x="7.4%" y="81.1%" numero="")
+              p.text-small.mb-0 Son reuniones multidisciplinares, en las que diseñadores, desarrolladores, usuarios y expertos en usabilidad asumen el rol de usuarios del sistema.
+            .tarjeta.color-acento-botones.p-3(x="7.4%" y="89%" numero="")
+              p.text-small.mb-0 Este método aporta una primera aproximación conocida de implicar a usuarios en los tradicionales recorridos cognitivos. Pues, conocedores de las ventajas de estos recorridos, se hace consistente evidenciar los principales problemas que puedan presentarse y, a la vez, detectados por los usuarios.
+            .tarjeta.color-acento-botones.p-3(x="7.4%" y="96.2%" numero="")
+              p.text-small.mb-0 Se realiza por medio de un experto en un estándar de la interfaz, que puede ser de facto o de iure. El experto realiza una inspección minuciosa a la interfaz, para comprobar que en todo momento y de manera global se cumplen los puntos definidos en el estándar.
+            
+            .tarjeta.color-acento-botones.p-3(x="40.7%" y="65.55%" numero="")
+              p.text-small.mb-0 La investigación de campo, generalmente, implica una combinación del método de observación de participante, entrevistas y análisis. Las grandes corporaciones pueden tener su propio departamento de marketing o investigación, para recopilar datos de fuentes primarias. Sin embargo, para la mayor parte de la investigación de campo, se contrata a terceros que realizan encuestas, grupos focales y entrevistas a nombre de la compañía.
+            .tarjeta.color-acento-botones.p-3(x="40.7%" y="73.5%" numero="")
+              p.text-small El <i>Focus Group</i> o Grupo de Discusión Dirigido es una técnica de recogida de datos, donde se reúnen de 6 a 9 personas (generalmente usuarios y también implicados) para discutir aspectos relacionados con el sistema. En ellos, un evaluador experto en usabilidad y/o accesibilidad (dependiendo del objetivo de la evaluación) realiza la función de moderador. Este preparará previamente la lista de aspectos a discutir y se encargará de recoger la información que necesita de la discusión.
+              p.text-small.mb-0 Esto permite capturar reacciones espontáneas e ideas de los usuarios que evolucionan en el proceso dinámico del grupo
+            .tarjeta.color-acento-botones.p-3(x="40.7%" y="81.5%" numero="")
+              p.text-small Entrevistar a los usuarios respecto de su experiencia en un sistema interactivo resulta una manera directa y una técnica potente de adquirir información. Pueden ser estructuradas o abiertas (o desestructuradas), en las primeras, el evaluador es más rígido en procurar el buen seguimiento del guión preestablecido, mientras que en las abiertas, se da espacio a los contertulios a expresarse con más libertad.
+              p.text-small.mb-0 Las entrevistas pueden ser efectivas para una evaluación de alto nivel, particularmente para extraer información sobre las preferencias del usuario, impresiones y actitudes. Pueden ayudar a encontrar problemas no previstos en el diseño.
+            .tarjeta.color-acento-botones.p-3(x="40.7%" y="89.5%" numero="")
+              p.text-small En el ámbito de la evaluación de sistemas interactivos, hablamos de cuestionarios para referirnos a listas de preguntas que el evaluador distribuye entre usuarios y/o implicados, para que estos nos las devuelvan con sus respuestas y, así, poder extraer conclusiones. El cuestionario normalmente se distribuye en formato escrito y las preguntas plantean aspectos relacionados con el sistema o aplicación concreta.
+              p.text-small.mb-0 Así pues, la base del cuestionario es la recolección de información a partir de respuestas contestadas por los usuarios y/o los implicados.
+            .tarjeta.color-acento-botones.p-3(x="40.7%" y="96.6%" numero="")
+              p.text-small La técnica grabación de uso, más conocida como análisis de logs o simplemente <i>logging</i>, se basa en «grabar» o «recoger» todas las actividades realizadas por el usuario con el sistema para su posterior análisis. Para ello, se precisa de una aplicación secundaria que realice automáticamente esta labor y que pase, además, totalmente inadvertida para el usuario.
+              p.text-small.mb-0 El <i>logging</i> implica disponer en el ordenador de una aplicación del sistema que recoja automáticamente estadísticas sobre el uso detallado del sistema. Es útil porque muestra cómo los usuarios realizan su trabajo real y porque es fácil recoger automáticamente datos de una gran cantidad de usuarios que trabajan bajo diversas circunstancias.
+            
+            .tarjeta.color-acento-botones.p-3(x="75%" y="65.5%" numero="")
+              p.text-small En este método de evaluación, conocido como <i>«thinking aloud»</i>, descrito por Nielsen, se pide a los usuarios, de forma individual, que expresen en voz alta y libremente sus pensamientos, sentimientos y opiniones sobre cualquier aspecto (diseño, funcionalidad, etc.), mientras que interactúan con el sistema o un prototipo del mismo.
+              p.text-small.mb-0 Resulta ser un método altamente eficaz para capturar aspectos relacionados con las actividades cognitivas de los usuarios potenciales del sistema evaluado.
             .tarjeta.color-acento-botones.p-3(x="75%" y="73%" numero="")
-              p.mb-3 Una variante del <i>thinking aloud</i> es el método conocido como Interacción Constructiva, el cual, en vez de un solo usuario, cuenta dos usuarios que realizan el <i>test</i> simultáneamente.
-              p La verbalización conjunta lo hace “más natural”. Aunque, como desventaja, puede ser que los usuarios tengan diferentes estrategias de aprendizaje y dificulten el <i>test</i>.
-            .tarjeta.color-acento-botones.p-3(x="75%" y="81%" numero="")
-              p.mb-3 El método del conductor es algo diferente de estos métodos de <i>test</i> vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el <i>test</i>.
-            .tarjeta.color-acento-botones.p-3(x="75%" y="89%" numero="")
-              p.mb-3 La técnica conocida como ordenación de tarjetas, o <em>card sorting</em>, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
-              p.mb-3 Se trata de una técnica simple -fácil de entender y de aplicar-, barata, rápida y que involucra a los usuarios, que es especialmente indicada cuando disponemos de una serie de ítems que precisan ser catalogados, así como para decidir la estructura organizativa de cualquier sistema de información.
-              p Esta técnica tiene demostrada utilidad para desarrollar sitios <i>web</i>, para lo cual está especialmente recomendada. 
+              p.text-small Una variante del <i>thinking aloud</i> es el método conocido como Interacción Constructiva, el cual, en vez de un solo usuario, cuenta dos usuarios que realizan el <i>test</i> simultáneamente.
+              p.text-small.mb-0 La verbalización conjunta lo hace “más natural”. Aunque, como desventaja, puede ser que los usuarios tengan diferentes estrategias de aprendizaje y dificulten el <i>test</i>.
+            .tarjeta.color-acento-botones.p-3(x="75%" y="80.5%" numero="")
+              p.text-small.mb-0 El método del conductor es algo diferente de estos métodos de <i>test</i> vistos hasta ahora, en los que hay una interacción  explícita entre el usuario y el evaluador (o conductor), donde se trata de interferir lo menos posible al usuario mientras realiza el <i>test</i>.
+            .tarjeta.color-acento-botones.p-3(x="75%" y="88.7%" numero="")
+              p.text-small La técnica conocida como ordenación de tarjetas, o <em>card sorting</em>, es la utilizada para conocer cómo los usuarios visualizan la organización de la información. El diseñador utiliza las aportaciones de los usuarios para decidir cómo deberá estructurarse la información en la interfaz.
+              p.text-small Se trata de una técnica simple -fácil de entender y de aplicar-, barata, rápida y que involucra a los usuarios, que es especialmente indicada cuando disponemos de una serie de ítems que precisan ser catalogados, así como para decidir la estructura organizativa de cualquier sistema de información.
+              p.text-small.mb-0 Esta técnica tiene demostrada utilidad para desarrollar sitios <i>web</i>, para lo cual está especialmente recomendada. 
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-11
