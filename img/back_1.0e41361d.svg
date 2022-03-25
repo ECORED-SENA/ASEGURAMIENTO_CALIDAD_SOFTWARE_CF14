@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1030" height="562" viewBox="0 0 1030 562">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_33876" data-name="Rectángulo 33876" width="1030" height="562" rx="26" fill="#1565c0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.167" y1="0.9" x2="0.931" y2="-0.031" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4dd0e1"/>
+      <stop offset="1" stop-color="#0b3360"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.756" y1="0.104" x2="0.09" y2="0.957" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.601" y1="0.408" x2="0.878" y2="-0.078" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_114612" data-name="Grupo 114612" transform="translate(-285 -1749)">
+    <g id="Grupo_108607" data-name="Grupo 108607" transform="translate(285 1749)">
+      <g id="Grupo_78478" data-name="Grupo 78478" transform="translate(0)" style="isolation: isolate">
+        <path id="Trazado_115773" data-name="Trazado 115773" d="M21.6,0H1008.4c11.928,0,21.6,10.509,21.6,23.472V538.061c0,12.963-9.669,23.472-21.6,23.472H21.6C9.669,561.533,0,551.024,0,538.061V23.472C0,10.509,9.669,0,21.6,0Z" fill="#ecfafc"/>
+        <g id="Enmascarar_grupo_7" data-name="Enmascarar grupo 7" opacity="0.338" clip-path="url(#clip-path)">
+          <g id="Grupo_78293" data-name="Grupo 78293" transform="translate(523.306 78.542)">
+            <path id="Trazado_113147" data-name="Trazado 113147" d="M0,0H469.315V316.878H0Z" fill="none"/>
+          </g>
+          <path id="Trazado_113352" data-name="Trazado 113352" d="M-69.622,0H82.785L-520.376,560.8H-672.783Z" transform="translate(257.874 -74.396)" fill="#1565c0" opacity="0.064" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Trazado_113353" data-name="Trazado 113353" d="M-285.641,0h97.824L-574.959,359.951h-97.824Z" transform="translate(340.28 36.664)" fill="#1565c0" opacity="0.064" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Trazado_113354" data-name="Trazado 113354" d="M-383.229,0h73.165L-599.618,269.217h-73.165Z" transform="translate(1473.443 351.791)" fill="#1565c0" opacity="0.064" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Trazado_113355" data-name="Trazado 113355" d="M-383.229,0h73.165L-599.618,269.217h-73.165Z" transform="translate(1489.58 351.791)" fill="#1565c0" opacity="0.064" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Trazado_113356" data-name="Trazado 113356" d="M-48.105,0H109.739L-514.939,580.8H-672.783Z" transform="translate(1013.442)" opacity="0.064" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Trazado_113357" data-name="Trazado 113357" d="M-59.754,0,248.414,10.831-364.615,580.8l-308.168-10.831Z" transform="translate(832.057)" opacity="0.064" fill="url(#linear-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Trazado_113358" data-name="Trazado 113358" d="M-300.074,0l187.36,6.585L-485.424,353.116l-187.36-6.585Z" transform="translate(701.938 377.238)" opacity="0.064" fill="url(#linear-gradient-3)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        </g>
+        <g id="Grupo_79268" data-name="Grupo 79268">
+          <path id="Rectángulo_5779" data-name="Rectángulo 5779" d="M0,0H50a0,0,0,0,1,0,0V50a0,0,0,0,1,0,0H25A25,25,0,0,1,0,25V0A0,0,0,0,1,0,0Z" transform="translate(50) rotate(90)" fill="#ffca28"/>
+          <g id="Rectángulo_5780" data-name="Rectángulo 5780" transform="translate(78 32) rotate(90)" fill="none" stroke="#ffca28" stroke-width="1">
+            <rect width="46" height="46" stroke="none"/>
+            <rect x="0.5" y="0.5" width="45" height="45" fill="none"/>
+          </g>
+        </g>
+        <path id="Trazado_115774" data-name="Trazado 115774" d="M106,0V82a25,25,0,0,1-25,25H0Z" transform="translate(924 454.533)" fill="#ffca28"/>
+      </g>
+    </g>
+  </g>
+</svg>
