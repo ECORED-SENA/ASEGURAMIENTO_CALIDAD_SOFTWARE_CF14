@@ -11,7 +11,7 @@
 
     figure.mb-5
     .video
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/JdsXCesQXB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JdsXCesQXB4?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
     .row.tarjeta_Sp-1.p-5
       .col-lg-7   
